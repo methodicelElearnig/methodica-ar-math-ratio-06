@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>النسبة — الكمية الناقصة (الهدف 1.6) · المكون 01</title>
+<link rel="stylesheet" href="assets/fonts/fonts.css?v=7">
+<link rel="stylesheet" href="styles.css?v=8">
+</head>
+<body data-subject-theme="math">
+<!-- Boot cover (resume, ADDING-REPORTING-AND-RESUME.md §8.11): hides the first screen until it is
+     known whether a saved screen will be restored. A SIBLING of #stage (so no transform reaches it),
+     inline-styled so a stale stylesheet cannot leave it invisible. 50-loader.js removes it on every
+     exit path (dropBootCover); this inline net removes it after 800ms whatever happens — or, when a
+     restore is in flight (window.__resumeInFlight), waits for it up to a hard 11s ceiling (10s
+     metadata poll + two CDN scripts). Copied from methodica-math-ratio-01. -->
+<div id="boot-cover" style="position:fixed;inset:0;z-index:9999;background:#e9e9ee"></div>
+<script>
+(function () {
+  var t0 = Date.now();
+  function tick() {
+    var c = document.getElementById('boot-cover');
+    if (!c || !c.parentNode) return;
+    if (window.__resumeInFlight && Date.now() - t0 < 11000) { setTimeout(tick, 100); return; }
+    c.parentNode.removeChild(c);
+  }
+  setTimeout(tick, 800);
+})();
+</script>
+<div id="stage">
+  <!-- Shared inline SVG sprite for every speech bubble in the lomda.
+       Defined once so there is a single mask id in the document;
+       instanced via <use>: bubble-tail-right by S1/S3, bubble-tail-down
+       by S7. Lives here (not as external .svg files) because a
+       CSS-referenced external SVG cannot read the page's custom
+       properties, so its outline could only ever hold one theme's
+       colour. Every bubble outline is var(--subject-500). -->
+  <svg width="0" height="0" style="position:absolute;overflow:hidden" aria-hidden="true" focusable="false">
+    <symbol id="bubble-tail-right" viewBox="0 0 241 137" preserveAspectRatio="none">
+      <mask id="bubble-tail-right-outline" maskUnits="userSpaceOnUse" x="0" y="0" width="241" height="137" fill="black">
+        <rect fill="white" width="241" height="137"/>
+        <path d="M220.421 56.5269V11.4516C220.421 6.78392 215.45 3 209.319 3H14.1024C7.9707 3 3 6.78392 3 11.4516V125.548C3 130.216 7.9707 134 14.1024 134H209.319C215.45 134 220.421 130.216 220.421 125.548V79.0645C220.421 78.7124 238 67.7427 238 67.7427C231.109 63.3513 227.305 60.9243 220.421 56.5269Z"/>
+      </mask>
+      <path d="M220.421 56.5269V11.4516C220.421 6.78392 215.45 3 209.319 3H14.1024C7.9707 3 3 6.78392 3 11.4516V125.548C3 130.216 7.9707 134 14.1024 134H209.319C215.45 134 220.421 130.216 220.421 125.548V79.0645C220.421 78.7124 238 67.7427 238 67.7427C231.109 63.3513 227.305 60.9243 220.421 56.5269Z" fill="#fff"/>
+      <path d="M220.421 56.5269H217.421V58.1704L218.806 59.0551L220.421 56.5269ZM238 67.7427L239.588 70.2879C240.462 69.7425 240.995 68.787 241 67.757C241.005 66.7269 240.481 65.7664 239.612 65.2128L238 67.7427ZM220.421 11.4516H217.421V56.5269H220.421H223.421V11.4516H220.421ZM209.319 3V6C211.788 6 213.911 6.7653 215.352 7.86247C216.791 8.95784 217.421 10.2546 217.421 11.4516H220.421H223.421C223.421 7.98093 221.566 5.05188 218.986 3.08837C216.41 1.12666 212.982 0 209.319 0V3ZM220.421 79.0645H217.421V125.548H220.421H223.421V79.0645H220.421ZM220.421 125.548H217.421C217.421 126.745 216.791 128.042 215.352 129.138C213.911 130.235 211.788 131 209.319 131V134V137C212.982 137 216.41 135.873 218.986 133.912C221.566 131.948 223.421 129.019 223.421 125.548H220.421ZM209.319 134V131H14.1024V134V137H209.319V134ZM14.1024 134V131C11.6334 131 9.51023 130.235 8.06894 129.138C6.63002 128.042 6 126.745 6 125.548H3H0C0 129.019 1.85532 131.948 4.43467 133.912C7.01165 135.873 10.4397 137 14.1024 137V134ZM3 11.4516H6C6 10.2546 6.63002 8.95784 8.06894 7.86247C9.51023 6.7653 11.6334 6 14.1024 6V3V0C10.4397 0 7.01165 1.12666 4.43467 3.08837C1.85532 5.05188 0 7.98093 0 11.4516H3ZM3 125.548H6V11.4516H3H0V125.548H3ZM14.1024 3V6H209.319V3V0H14.1024V3ZM220.421 56.5269L218.806 59.0551C225.691 63.4531 229.496 65.8807 236.388 70.2727L238 67.7427L239.612 65.2128C232.722 60.822 228.919 58.3955 222.036 53.9987L220.421 56.5269ZM238 67.7427C236.412 65.1976 236.412 65.1977 236.412 65.1978C236.411 65.1979 236.411 65.198 236.411 65.1982C236.41 65.1985 236.41 65.199 236.408 65.1997C236.406 65.2011 236.403 65.2031 236.399 65.2058C236.39 65.2111 236.378 65.219 236.361 65.2295C236.327 65.2504 236.278 65.2813 236.213 65.3217C236.084 65.4024 235.895 65.5207 235.654 65.6713C235.172 65.9726 234.484 66.4032 233.659 66.921C232.009 67.9563 229.807 69.3412 227.604 70.7379C225.404 72.1329 223.192 73.5463 221.526 74.6363C220.696 75.1789 219.981 75.6545 219.466 76.0125C219.214 76.1872 218.974 76.3587 218.782 76.5072C218.694 76.575 218.559 76.6827 218.423 76.8092C218.363 76.8656 218.229 76.9935 218.088 77.1708C218.018 77.2582 217.892 77.425 217.771 77.6548C217.676 77.8354 217.421 78.3502 217.421 79.0645H220.421H223.421C223.421 79.7734 223.169 80.2814 223.078 80.4538C222.961 80.6756 222.841 80.833 222.78 80.9098C222.656 81.066 222.547 81.1676 222.52 81.1929C222.451 81.2573 222.414 81.2834 222.455 81.2514C222.521 81.2006 222.658 81.1003 222.887 80.9414C223.333 80.632 223.992 80.1929 224.81 79.6576C226.44 78.5917 228.622 77.1967 230.817 75.8052C233.009 74.4155 235.202 73.036 236.848 72.0035C237.67 71.4874 238.356 71.0583 238.835 70.7583C239.075 70.6082 239.264 70.4905 239.392 70.4104C239.456 70.3703 239.505 70.3396 239.538 70.319C239.555 70.3086 239.567 70.3008 239.576 70.2956C239.58 70.293 239.583 70.2911 239.585 70.2898C239.586 70.2891 239.587 70.2886 239.587 70.2883C239.588 70.2882 239.588 70.288 239.588 70.288C239.588 70.2879 239.588 70.2879 238 67.7427Z" style="fill: var(--subject-500)" mask="url(#bubble-tail-right-outline)"/>
+    </symbol>
+
+    <!-- Tail at bottom-centre, pointing DOWN onto the character's head.
+         Used by S7. Single stroked path (no mask needed): white fill,
+         3px Subject/500 outline. Geometry preserved exactly from the
+         Figma export (viewBox 216x89, stroke-width 3, preserveAspectRatio
+         none so it stretches to the CSS box). -->
+    <symbol id="bubble-tail-down" viewBox="0 0 216 89" preserveAspectRatio="none">
+      <path d="M11.0303 1.5H204.971C207.842 1.50006 210.369 2.06137 212.121 2.90137C213.982 3.7935 214.5 4.73475 214.5 5.28711V76.6631C214.5 77.2154 213.982 78.1567 212.121 79.0488C210.369 79.8888 207.842 80.4501 204.971 80.4502H124.545V80.5146L124.416 80.5703L108.468 87.3652L92.9766 80.5762L92.834 80.5137V80.4502H11.0303C8.15832 80.4502 5.63138 79.8889 3.87891 79.0488C2.01789 78.1567 1.5 77.2154 1.5 76.6631V5.28711C1.50001 4.73475 2.01782 3.7935 3.87891 2.90137C5.63138 2.06132 8.15832 1.5 11.0303 1.5Z" fill="#fff" style="stroke: var(--subject-500)" stroke-width="3"/>
+    </symbol>
+
+    <!-- Small tail pointing UP, for the "SmallSpeechText" label bubble
+         (Figma node 1205:20133) — used by S13's "התחילו כאן" pointer under
+         station 1. Unlike the two bubbles above this one is a FILLED shape
+         with no stroke (fill = Subject/100, the light subject tint), so the
+         theme var goes on `fill` rather than `stroke`. Rounded corners
+         (r≈4) are preserved from the export — a CSS border-triangle can't
+         reproduce them, which is why this is real SVG geometry. -->
+    <symbol id="bubble-tail-up-small" viewBox="0 0 29.6626 26.75">
+      <path d="M11.3672 2C12.9068 -0.666668 16.7558 -0.666665 18.2954 2L29.1207 20.75C30.6603 23.4167 28.7358 26.75 25.6566 26.75H4.00597C0.926766 26.75 -0.997735 23.4167 0.541867 20.75L11.3672 2Z" style="fill: var(--subject-100)"/>
+    </symbol>
+  </svg>
+<div id="app">
+
+  <button class="flag-btn" type="button" aria-label="هل وجدتم مشكلة؟">
+        <span class="flag-btn-icon">
+          <span class="flag-btn-glyph" aria-hidden="true">
+            <svg class="flag-btn-glyph-pole" viewBox="0 0 0.794329 17.0005" preserveAspectRatio="none" fill="none">
+              <path
+                d="M0.397164 17C0.177722 17 0 16.8239 0 16.6065V0.393501C0 0.176082 0.177722 0 0.397164 0C0.616607 0 0.794329 0.176082 0.794329 0.393501V16.607C0.794329 16.8245 0.616607 17.0005 0.397164 17.0005V17Z"
+                fill="currentColor" />
+            </svg>
+            <svg class="flag-btn-glyph-banner" viewBox="0 0 12 9.31542" preserveAspectRatio="none" fill="none">
+              <path
+                d="M2.76227 9.31542C1.91972 9.31542 1.06958 9.15545 0.213483 8.71363C0.0823588 8.64599 0 8.51124 0 8.36469V0.950975C0 0.814619 0.0715221 0.687925 0.188558 0.615989C0.305594 0.54459 0.45189 0.537611 0.574886 0.598811C0.577053 0.599884 0.578679 0.600958 0.580846 0.602032C2.31309 1.49586 4.05563 1.046 5.90003 0.569821C7.80946 0.0770055 9.78336 -0.431915 11.7865 0.601495C11.9176 0.669136 12 0.803882 12 0.950438V8.36415C12 8.4946 11.9344 8.617 11.8255 8.69001C11.7166 8.76302 11.5774 8.77805 11.4555 8.72974C11.443 8.7249 11.4311 8.71954 11.4197 8.71363C9.68745 7.8198 7.94491 8.26967 6.10051 8.7453C5.00709 9.02714 3.89199 9.31489 2.76281 9.31489L2.76227 9.31542ZM0.793787 8.11935C2.45559 8.87307 4.13094 8.44038 5.90003 7.98407C7.62469 7.53903 9.40191 7.08057 11.2062 7.75806V1.19631C9.54441 0.442591 7.86906 0.875281 6.09997 1.33159C4.37531 1.77663 2.59755 2.23509 0.793787 1.5576V8.11935Z"
+                fill="currentColor" />
+            </svg>
+          </span>
+        </span>
+        <span class="flag-btn-label">هل وجدتم مشكلة؟</span>
+      </button>
+
+<!-- ══ S0 — deck slide 3: the hook opener. Photo LEFT, copy RIGHT; the copy
+     block's top sits ABOVE the photo's, so it leads the row. The deck names
+     this HookClosingText, the same name it gives slide 5 — but slide 5 has the
+     character and the bubble and this one has neither (OPEN QUESTION). ══ -->
+  <section class="screen active" data-screen="0" id="s0">
+    <div class="hook-row">
+      <div class="hook-copy" data-reveal="1">
+        <p>مثلما يحدث كل عام مع اقتراب الأعياد، يحدث في صباح اليوم<br>
+           حملة التطوّع في المدرسة:<br>
+           <strong>تعبئة صناديق الغذاء لكبار السن في المجتمع.</strong></p>
+        <p>تشرح لكم هدى منسّقة الصف قاعدة مهمة:<br>
+           <span class="qmark">"</span><strong>في كل صندوق نضع المربّيات والمنتجات الجافة بنسبة<br>
+           نسبة ثابتة من <span class="ratio">3:4</span> لكي تكون جميع الصناديق متساوية، وكل<br>
+           شخص بالغ سيحصل على نفس الكمية بالضبط</strong><span class="qmark">"</span>.</p>
+      </div>
+      <figure class="hook-media" data-reveal="2">
+        <img src="assets/img/hook-food-boxes.jpg" alt="يعبئُ الطلاب والطالبات صناديق غذائية في المدرسة">
+      </figure>
+    </div>
+    <button class="btn-continue" onclick="goTo(1)">متابعة</button>
+  </section>
+
+<!-- ══ S2 — deck slide 5: the hook closer. The bubble sits ABOVE the character
+     and its tail points down-left at its head, so it uses the DOWN tail, not
+     the side sprite. The note asks for the character to enter 2s after the
+     text — wired as a delayed reveal, not a static appearance. ══ -->
+  <section class="screen" data-screen="2" id="s2">
+    <div class="hookclose">
+      <p class="hookclose-body" data-reveal="1">
+        النسبة بين الكميات مهمة في ملء صناديق التبرعات المتطابقة، لكنها مهمة أيضاً<br>في حالات مختلفة وعديدة في الحياة الحقيقية.<br>
+        في هذه الوحدة <strong>دعنا نتدرب على حل المسائل التي يُعطى فيها نسبة بين كميتين ومعطى إضافي واحد</strong>.<br>
+        <strong>سنحتاج إلى إيجاد الكمية الناقصة</strong>.
+      </p>
+      <!-- no data-reveal here: the deck asks for the character 2s AFTER the
+           text, so unit.js owns this entrance. Two mechanisms on one element
+           made it appear, disappear and appear again. -->
+      <div class="hookclose-char">
+        <!-- the APPROVED bubble component (ratio-01-01): the tail is part of
+             the SVG shape, not a rotated CSS square -->
+        <div class="rs-bubble rs-bubble--down">
+          <svg class="rs-bubble-shape rs-bubble-shape--down" viewBox="0 0 216 89" preserveAspectRatio="none" aria-hidden="true"><use href="#bubble-tail-down"/></svg>
+          <span class="rs-bubble-text rs-bubble-text--down">يلّا – من الممكن!<br>لنبدأ!</span>
+        </div>
+        <img src="assets/img/character-yellow.png" alt="الشخصية المرافقة">
+      </div>
+    </div>
+    <button class="btn-continue" onclick="goTo(3)">متابعة</button>
+    <button class="btn-back" onclick="goTo(1)">رجوع</button>
+  </section>
+  <!-- Quiz hint overlay — shared, outside all .screen divs -->
+  <div id="quiz-hint-overlay" class="hidden m-popup" role="dialog" aria-modal="true" aria-label="تلميح">
+    <div class="hint-popup">
+      <!-- 07.09: the bulb the hint card was missing. Plain-bulb variant
+           (viewBox 0 0 20.997 27.9988), the one the approved build uses in
+           the card title — deliberately NOT the button's rayed bulb. The
+           text lives in its own span so quizOpenHint() can rewrite it
+           without deleting the icon. -->
+      <h3 class="hint-title"><svg class="hint-title-icon" viewBox="0 0 20.997 27.9988" fill="none" aria-hidden="true"><path d="M17.4818 2.65764C15.2512 0.668476 12.2563 -0.275357 9.25683 0.0699765C4.59833 0.60431 0.748334 4.35748 0.103168 8.99148C-0.387999 12.5078 0.894168 16.0031 3.532 18.34C4.99267 19.6338 5.83033 21.5191 5.83033 23.5095V23.9155C5.83033 26.1671 7.662 27.9988 9.91367 27.9988H11.0803C13.332 27.9988 15.1637 26.1671 15.1637 23.9155V23.5036C15.1637 21.5366 16.041 19.6431 17.6347 18.1708C19.7708 16.1945 20.997 13.398 20.997 10.4988C20.997 7.50864 19.716 4.65031 17.4818 2.65764ZM13.997 23.9143C13.997 25.522 12.6892 26.831 11.0803 26.831H9.91367C8.30483 26.831 6.997 25.522 6.997 23.9143V23.5083C6.997 23.0545 6.9585 22.6041 6.88617 22.1643H14.1137C14.0367 22.6041 13.997 23.051 13.997 23.5025V23.9143ZM16.8425 17.3133C15.691 18.3773 14.865 19.6385 14.4077 20.9976H11.0792V12.1986C12.7323 11.9198 13.9958 10.479 13.9958 8.74764C13.9958 8.42564 13.7345 8.16431 13.4125 8.16431C13.0905 8.16431 12.8292 8.42564 12.8292 8.74764C12.8292 10.0345 11.7827 11.081 10.4958 11.081C9.209 11.081 8.1625 10.0345 8.1625 8.74764C8.1625 8.42564 7.90117 8.16431 7.57917 8.16431C7.25717 8.16431 6.99583 8.42564 6.99583 8.74764C6.99583 10.479 8.25933 11.9198 9.9125 12.1986V20.9976H6.60267C6.16633 19.6431 5.38 18.4193 4.3055 17.4661C1.9605 15.3895 0.821834 12.2815 1.25817 9.15248C1.831 5.03648 5.2505 1.70448 9.38867 1.22848C9.7655 1.18531 10.14 1.16431 10.511 1.16431C12.807 1.16431 14.9735 1.98448 16.7072 3.52914C18.6917 5.30014 19.8315 7.83998 19.8315 10.4976C19.8315 13.111 18.771 15.5318 16.8437 17.3133H16.8425Z" fill="white"/></svg><span class="hint-title-text">هل تتذكرون كيف تحسبون؟</span></h3>
+      <p class="hint-body"></p>
+      <button class="hint-close-btn" onclick="quizCloseHint()">رجوع إلى السؤال</button>
+    </div>
+  </div>
+
+  <!-- Problem-report modal (approved-units pattern; posts to the shared Google Form) -->
+  <div id="report-modal" class="report-modal-overlay m-popup" hidden role="dialog" aria-modal="true" aria-labelledby="report-modal-title">
+    <div class="report-modal-box">
+      <button class="report-close-btn" onclick="tryCloseReportModal()" aria-label="إغلاق">&#10005;</button>
+      <h2 class="report-modal-title" id="report-modal-title">الإبلاغ عن مشكلة</h2>
+      <p class="report-modal-body">هل هناك شيء غير واضح أو لا يعمل بشكل صحيح؟ أخبرونا بما حدث حتى نتمكن من المعالجة.</p>
+      <div class="report-field">
+        <label class="report-label" for="report-type">ما نوع المشكلة <span class="required-star">*</span></label>
+        <select class="report-select" id="report-type">
+          <option value="" disabled selected>اختر نوع المشكلة</option>
+          <option value="technical">عطل تقني أو أن شيئاً ما لا يعمل</option>
+          <option value="unclear">شيء ما غير واضح لي</option>
+          <option value="other">أخر</option>
+        </select>
+      </div>
+      <div class="report-field">
+        <label class="report-label" for="report-text">ماذا حدث؟ <span class="required-star">*</span></label>
+        <textarea class="report-textarea" id="report-text" maxlength="250" rows="4" placeholder="صف المشكلة..."></textarea>
+        <span class="report-char-count" id="report-char-count">0 / 250</span>
+      </div>
+      <p class="report-error" id="report-error" hidden>يرجى تحديد نوع المشكلة ووصف ما حدث.</p>
+      <div class="report-actions">
+        <button class="report-submit-btn" onclick="submitReport()">إرسال</button>
+        <button class="report-cancel-btn" onclick="tryCloseReportModal()">إلغاء</button>
+      </div>
+      <div class="report-thanks" id="report-thanks" hidden>
+        <p>شكرًا! تم إرسال البلاغ. سنتعامل معه في أقرب وقت.</p>
+        <button class="report-submit-btn" onclick="forceCloseReportModal()">إغلاق</button>
+      </div>
+    </div>
+  </div>
+  <div id="report-confirm-modal" class="report-modal-overlay m-popup" hidden role="dialog" aria-modal="true" aria-labelledby="confirm-modal-title">
+    <div class="report-modal-box report-confirm-box">
+      <h2 class="report-modal-title" id="confirm-modal-title">هل أنت متأكد من إغلاق النافذة؟</h2>
+      <p class="report-modal-body">بالنقر على إغلاق لن يتم إرسال تقرير</p>
+      <div class="report-actions">
+        <button class="report-cancel-btn" onclick="forceCloseReportModal()">إغلاق النافذة</button>
+        <button class="report-submit-btn" onclick="backToReportForm()">أريد الإبلاغ</button>
+      </div>
+    </div>
+  </div>
+
+
+</div>
+</div>
+
+  <!-- Platform layer first (identity → xAPI → resume → loader), then this component's
+       configuration, then the 720-core, then the glue, then the boot — LAST, in its own tag.
+       Every ?v= is identical in both components (ADDING-REPORTING-AND-RESUME.md §3.4). -->
+  <script src="../unit-js/10-identity.js?v=7"></script>
+  <script src="../unit-js/20-xapi.js?v=9"></script>
+  <script src="../unit-js/40-resume.js?v=7"></script>
+  <script src="../unit-js/50-loader.js?v=7"></script>
+  <script src="script.js?v=8"></script>
+  <script src="../unit-js/motion.js?v=7"></script>
+  <script src="../unit-js/quiz-engine.js?v=7"></script>
+  <script src="../unit-js/questions.js?v=7"></script>
+  <script src="../unit-js/report-modal.js?v=7"></script>
+  <script src="../unit-js/unit.js?v=7"></script>
+  <script src="../unit-js/engine.js?v=7"></script>
+  <script src="../unit-js/70-platform.js?v=8"></script>
+  <script src="../unit-js/90-boot.js?v=7"></script>
+</body>
+</html>

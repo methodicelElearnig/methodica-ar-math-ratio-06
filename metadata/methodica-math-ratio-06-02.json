@@ -1,0 +1,181 @@
+{
+  "id": "https://lomdot.education.gov.il/metodica/720active/math/ratio/06/methodica-math-ratio-06-02/",
+  "title": "שאלת שיא",
+  "learningUnitId": "methodica-math-ratio-06",
+  "componentPurpose": "practice",
+  "isAssessment": true,
+  "recommendedAfterFail": [],
+  "isRequired": true,
+  "relativeDifficulty": 5,
+  "masteryLevel": null,
+  "order": 2,
+  "depthLevel": "core-curriculum-basic",
+  "cognitiveLevels": ["interpretation-and-reasoning"],
+  "languages": ["Hebrew"],
+  "skills": [],
+  "estimatedTimeInMinutes": 20,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "subContent": [
+    {
+      "id": "https://lomdot.education.gov.il/metodica/720active/math/ratio/06/methodica-math-ratio-06-02/methodica-math-ratio-06-02-001/",
+      "title": "ילדים ומבוגרים באוטובוס",
+      "informationToBot": "מטרת הפריט: תרגול מציאת כמות חסרה מיחס נתון (4:5) וסך כולל (36 נוסעים). מה התלמיד אמור להבין/לתרגל: סכום חלקי היחס הוא 9 (4+5), חלוקת הסך הכולל בסכום החלקים נותנת את ערך 'חלק' אחד (36:9=4), והכפלת החלק המבוקש (4) בערך זה נותנת את התשובה (4·4=16). טעויות נפוצות: חלוקה ב-4 או ב-5 בלבד במקום בסכום החלקים (9); בלבול בין חלק הילדים לחלק המבוגרים. מידע נוסף: פריט ראשון ברצף העשרה שאלות התרגול; מוביל אליו מסך מעבר המודיע שיש 10 שאלות שביחד מהוות שאלת שיא, וכי נדרש לענות נכון על 8 מתוך 10 לפחות.",
+      "contentType": "practice",
+      "mediaFormat": "interactive-content",
+      "questions": [
+        {
+          "questionId": "https://lomdot.education.gov.il/metodica/720active/math/ratio/06/methodica-math-ratio-06-02/methodica-math-ratio-06-02-001/q1",
+          "questionType": "choice",
+          "questionText": "באוטובוס ישנם 36 ילדים ומבוגרים. היחס בין מספר הילדים למבוגרים על האוטובוס הוא 4:5. כמה ילדים באוטובוס?",
+          "answers": ["4", "8", "16", "20"],
+          "correctAnswers": ["16"]
+        }
+      ]
+    },
+    {
+      "id": "https://lomdot.education.gov.il/metodica/720active/math/ratio/06/methodica-math-ratio-06-02/methodica-math-ratio-06-02-002/",
+      "title": "שמיכת משבצות - ריבועים צהובים וכחולים",
+      "informationToBot": "מטרת הפריט: תרגול מציאת כמות חסרה מיחס נתון (3:5, צהוב:כחול) וכמות בפועל של המרכיב הקטן (27 ריבועים צהובים). מה התלמיד אמור להבין/לתרגל: ערך 'חלק' אחד ביחס מתקבל מחלוקת 27 ב-3 (=9), והכמות המבוקשת מתקבלת מהכפלת חלק זה ב-5 (5·9=45). טעויות נפוצות: הכפלה ב-3 במקום ב-5 (בלבול בין הצבע הנתון לצבע המבוקש); שימוש שגוי בחלק היחס.",
+      "contentType": "practice",
+      "mediaFormat": "interactive-content",
+      "questions": [
+        {
+          "questionId": "https://lomdot.education.gov.il/metodica/720active/math/ratio/06/methodica-math-ratio-06-02/methodica-math-ratio-06-02-002/q1",
+          "questionType": "numeric",
+          "questionText": "שמיכת משבצות מורכבת מריבועים צהובים וריבועים כחולים ביחס של 3:5 (מספר הריבועים הצהובים קטן יותר). בשמיכה יש בסך הכל 27 ריבועים צהובים. כמה ריבועים כחולים בשמיכה?",
+          "answers": [],
+          "correctAnswers": [45]
+        }
+      ]
+    },
+    {
+      "id": "https://lomdot.education.gov.il/metodica/720active/math/ratio/06/methodica-math-ratio-06-02/methodica-math-ratio-06-02-003/",
+      "title": "ערבוב צבע לצביעת חדר",
+      "informationToBot": "מטרת הפריט: תרגול מציאת כמות חסרה מיחס תערובת (3:2, כחול:ירוק) וסך כולל (10 ליטר). מה התלמיד אמור להבין/לתרגל: סכום חלקי היחס הוא 5, ערך 'חלק' אחד מתקבל מחלוקת 10 ב-5 (=2), וכמות הצבע הכחול מתקבלת מהכפלת החלק (3) בערך זה (2·3=6). טעויות נפוצות: חלוקה בכמות החלקים השגויה (2 במקום 5); בלבול בין הצבע הראשון (כחול) לשני (ירוק) ביחס.",
+      "contentType": "practice",
+      "mediaFormat": "interactive-content",
+      "questions": [
+        {
+          "questionId": "https://lomdot.education.gov.il/metodica/720active/math/ratio/06/methodica-math-ratio-06-02/methodica-math-ratio-06-02-003/q1",
+          "questionType": "numeric",
+          "questionText": "יואב צריך 10 ליטרים של צבע לצביעת החדר שלו. הוא בחר צבע הנוצר מערבוב של כחול וירוק ביחס של 3:2. כמה ליטרים של צבע כחול יואב צריך?",
+          "answers": [],
+          "correctAnswers": [6]
+        }
+      ]
+    },
+    {
+      "id": "https://lomdot.education.gov.il/metodica/720active/math/ratio/06/methodica-math-ratio-06-02/methodica-math-ratio-06-02-004/",
+      "title": "תערובת זהב וכסף",
+      "informationToBot": "מטרת הפריט: תרגול מציאת כמות חסרה מיחס תערובת (1:4, זהב:כסף) וסך משקל כולל (40 גרם). מה התלמיד אמור להבין/לתרגל: סכום חלקי היחס הוא 5 (מנה בסיסית), מספר המנות ב-40 גרם מתקבל מחלוקה (40:5=8), ומשקל הכסף הכולל מתקבל מהכפלת מספר המנות במשקל הכסף במנה אחת (8·4=32). טעויות נפוצות: התייחסות ל-40 גרם כאילו הוא שווה לחלק אחד בלבד, בלי לחלק במספר החלקים הכולל.",
+      "contentType": "practice",
+      "mediaFormat": "interactive-content",
+      "questions": [
+        {
+          "questionId": "https://lomdot.education.gov.il/metodica/720active/math/ratio/06/methodica-math-ratio-06-02/methodica-math-ratio-06-02-004/q1",
+          "questionType": "choice",
+          "questionText": "תערובת מתכות עשויה מזהב וכסף ביחס של 1:4. מהו משקל הכסף, בגרמים, ב-40 גרם מתערובת מתכות זו?",
+          "answers": ["8", "10", "30", "32"],
+          "correctAnswers": ["32"]
+        }
+      ]
+    },
+    {
+      "id": "https://lomdot.education.gov.il/metodica/720active/math/ratio/06/methodica-math-ratio-06-02/methodica-math-ratio-06-02-005/",
+      "title": "תקציב שבועי - חיסכון והוצאות",
+      "informationToBot": "מטרת הפריט: תרגול מציאת כמות חסרה מתוך מודל פסים (5 משבצות חיסכון, 3 משבצות הוצאות) וכמות כספית נתונה לחיסכון (150 ש\"ח). מה התלמיד אמור להבין/לתרגל: ערך משבצת אחת מתקבל מחלוקת 150 ב-5 (=30), וסכום ההוצאות מתקבל מהכפלת ערך המשבצת במספר משבצות ההוצאה (30·3=90). טעויות נפוצות: חלוקת 150 במספר משבצות ההוצאה (3) במקום במספר משבצות החיסכון (5). מידע נוסף: המסך משלב מודל פסים חזותי (חיסכון מול הוצאות) לצד תמונה.",
+      "contentType": "practice",
+      "mediaFormat": "interactive-content",
+      "questions": [
+        {
+          "questionId": "https://lomdot.education.gov.il/metodica/720active/math/ratio/06/methodica-math-ratio-06-02/methodica-math-ratio-06-02-005/q1",
+          "questionType": "numeric",
+          "questionText": "לפניכם מודל פסים המייצג את התקציב השבועי של רוני, המחולק בין חיסכון להוצאות. כל משבצת מייצגת \"מנה\" שווה של כסף (חיסכון: 5 משבצות, הוצאות: 3 משבצות). ידוע שרוני חסכה השבוע 150 שקלים (סכום המיוצג על ידי 5 משבצות החיסכון), מה היה סכום ההוצאות שלה?",
+          "answers": [],
+          "correctAnswers": [90]
+        }
+      ]
+    },
+    {
+      "id": "https://lomdot.education.gov.il/metodica/720active/math/ratio/06/methodica-math-ratio-06-02/methodica-math-ratio-06-02-006/",
+      "title": "היקף מלבן וצלעותיו",
+      "informationToBot": "מטרת הפריט: תרגול מציאת אורכי צלעות מלבן מתוך יחס בין הצלעות (2:5) והיקף נתון (56 ס\"מ). מה התלמיד אמור להבין/לתרגל: יש לזהות שההיקף מורכב מפעמיים כל צלע (כלומר סכום 4 חלקי היחס), למצוא את סכום שתי צלעות סמוכות (56:2=28), לחלק בסכום חלקי היחס (28:7=4), ולהכפיל כל חלק ביחס בגורם ההרחבה (2·4=8, 5·4=20). טעויות נפוצות: התייחסות להיקף כאילו הוא שווה לסכום חלקי היחס בלבד, בלי לחלק ב-2 תחילה; בחירת תשובה עם הצלעות בסדר הפוך (הארוכה קודם) - הגלולה הנכונה כתובה 'קצרה ואז ארוכה' (20 ו-8).",
+      "contentType": "practice",
+      "mediaFormat": "interactive-content",
+      "questions": [
+        {
+          "questionId": "https://lomdot.education.gov.il/metodica/720active/math/ratio/06/methodica-math-ratio-06-02/methodica-math-ratio-06-02-006/q1",
+          "questionType": "choice",
+          "questionText": "היחס בין הצלע הקצרה לצלע הארוכה של מלבן הוא 2:5. אם היקף המלבן (סכום כל 4 הצלעות) הוא 56 ס\"מ, מהם אורכי הצלעות של המלבן?",
+          "answers": ["20 ו-8", "40 ו-16", "50 ו-6", "32 ו-24"],
+          "correctAnswers": ["20 ו-8"]
+        }
+      ]
+    },
+    {
+      "id": "https://lomdot.education.gov.il/metodica/720active/math/ratio/06/methodica-math-ratio-06-02/methodica-math-ratio-06-02-007/",
+      "title": "מתכון עוגה - כמות חלב",
+      "informationToBot": "מטרת הפריט: תרגול הגדלת מתכון לפי יחס בין שני מרכיבים (2 ביצים ל-0.6 ליטר חלב), כאשר הכמות הנתונה (5 ביצים) אינה כפולה שלמה של הכמות המקורית. מה התלמיד אמור להבין/לתרגל: יש למצוא את גורם ההרחבה בין כמות הביצים החדשה לישנה (5:2=2.5), ולהכפיל את כמות החלב בגורם זה (0.6·2.5=1.5). טעויות נפוצות: עיגול גורם ההרחבה לשלם (2 או 3) במקום שימוש בערך העשרוני המדויק (2.5).",
+      "contentType": "practice",
+      "mediaFormat": "interactive-content",
+      "questions": [
+        {
+          "questionId": "https://lomdot.education.gov.il/metodica/720active/math/ratio/06/methodica-math-ratio-06-02/methodica-math-ratio-06-02-007/q1",
+          "questionType": "choice",
+          "questionText": "לניר יש מתכון לעוגה שצריכה 2 ביצים ו-0.6 ליטר חלב. הוא רוצה להכין עוגה גדולה ככל האפשר ויש לו רק 5 ביצים. כמה ליטר חלב ניר צריך כדי להכין את העוגה הגדולה ביותר שאפשר?",
+          "answers": ["1.2", "2.4", "1.5", "2"],
+          "correctAnswers": ["1.5"]
+        }
+      ]
+    },
+    {
+      "id": "https://lomdot.education.gov.il/metodica/720active/math/ratio/06/methodica-math-ratio-06-02/methodica-math-ratio-06-02-008/",
+      "title": "קצב דפיקות לב בשעה",
+      "informationToBot": "מטרת הפריט: תרגול אומדן (הערכה מקורבת) של גודל המתקבל מהכפלת קצב (72 דפיקות בדקה) במספר יחידות זמן (60 דקות בשעה). מה התלמיד אמור להבין/לתרגל: יש לעגל את המספר (72 ל-70) לפני ההכפלה כדי לקבל אומדן נוח (70·60=4,200), במקום החישוב המדויק (4,320). טעויות נפוצות: ביצוע חישוב מדויק ובחירת התשובה הקרובה ביותר אליו (4,320 קרוב יותר ל-4,200 מאשר לאפשרויות אחרות, אך המיומנות המתורגלת כאן היא אומדן, לא חישוב מדויק); טעות בסדר גודל (הוספת אפס מיותר או חסר).",
+      "contentType": "practice",
+      "mediaFormat": "interactive-content",
+      "questions": [
+        {
+          "questionId": "https://lomdot.education.gov.il/metodica/720active/math/ratio/06/methodica-math-ratio-06-02/methodica-math-ratio-06-02-008/q1",
+          "questionType": "choice",
+          "questionText": "קצב דפיקות הלב של אדם הוא 72 דפיקות לב בדקה. בקצב זה, העריכו כמה דפיקות לב בערך יהיו לאדם בשעה?",
+          "answers": ["420,000", "42,000", "4,200", "420"],
+          "correctAnswers": ["4,200"]
+        }
+      ]
+    },
+    {
+      "id": "https://lomdot.education.gov.il/metodica/720active/math/ratio/06/methodica-math-ratio-06-02/methodica-math-ratio-06-02-009/",
+      "title": "תערובת דשן - יחס חנקה לסך הכל",
+      "informationToBot": "מטרת הפריט: תרגול בניית יחס בין מרכיב בודד (חנקה, 2 ק\"ג) לבין הכמות הכוללת של תערובת (חנקה+פוספט+אשלג = 2+3+6=11 ק\"ג) - שלא כמו רוב פריטי היחידה, כאן היחס עצמו הוא התשובה (לא כמות חסרה). מה התלמיד אמור להבין/לתרגל: יש לחשב תחילה את הכמות הכוללת של הדשן על ידי חיבור כל שלושת המרכיבים, ואז לבנות את היחס בין כמות החנקה (2) לכמות הכוללת (11). טעויות נפוצות: בניית היחס בין חנקה למרכיב אחד בלבד (פוספט או אשלג) במקום לסך הכולל; שכחת חיבור אחד המרכיבים בחישוב הסך הכולל. מידע נוסף: התשובה מוזנת בשני תיבות קלט נפרדות (מונה ומכנה של היחס, מופרדות בנקודתיים על המסך) ולא כמחרוזת בודדת.",
+      "contentType": "practice",
+      "mediaFormat": "interactive-content",
+      "questions": [
+        {
+          "questionId": "https://lomdot.education.gov.il/metodica/720active/math/ratio/06/methodica-math-ratio-06-02/methodica-math-ratio-06-02-009/q1",
+          "questionType": "fill-in",
+          "questionText": "בהכנת דשן לגינה, גנן מערבב 2 ק\"ג חנקה (ניטראט), 3 ק\"ג פוספט ו-6 ק\"ג אשלג (אשלגן). מהו היחס בין כמות החנקה לבין הכמות הכוללת של הדשן? (מוזן כשתי תיבות: היחס __ : __)",
+          "answers": [],
+          "correctAnswers": ["תיבה ראשונה (חנקה): 2, תיבה שנייה (סך הכל): 11"]
+        }
+      ]
+    },
+    {
+      "id": "https://lomdot.education.gov.il/metodica/720active/math/ratio/06/methodica-math-ratio-06-02/methodica-math-ratio-06-02-010/",
+      "title": "כדורים אדומים וירוקים בכד",
+      "informationToBot": "מטרת הפריט: שאלת הסיכום של הרצף - תרגול דו-שלבי המשלב מציאת כמות ממשית מתוך יחס, שינוי באחת הכמויות, ובניית יחס חדש בין הכמויות המעודכנות. מה התלמיד אמור להבין/לתרגל: (1) מיחס 5:7 (אדום:ירוק) וכמות הירוקים (35) למצוא את ערך החלק (35:7=5) ואת כמות האדומים המקורית (5·5=25). (2) להוסיף 10 כדורים אדומים (25+10=35). (3) לבנות את היחס החדש בין הכמויות המעודכנות (35:35) ולצמצם אותו (1:1). טעויות נפוצות: עצירה אחרי שלב הביניים (בחירת 15:7, שהוא מספר הכדורים האדומים החדש בלבד ולא היחס החדש); אי-צמצום היחס הסופי (בחירת 35:35 כאילו זו אפשרות, במקום 1:1); בלבול בין הכמות הישנה לחדשה של הירוקים (הכמות הירוקים אינה משתנה).",
+      "contentType": "practice",
+      "mediaFormat": "interactive-content",
+      "questions": [
+        {
+          "questionId": "https://lomdot.education.gov.il/metodica/720active/math/ratio/06/methodica-math-ratio-06-02/methodica-math-ratio-06-02-010/q1",
+          "questionType": "choice",
+          "questionText": "בכד יש כדורים אדומים וירוקים ביחס של 5:7. נתון שיש 35 כדורים ירוקים בכד. אם נוסיף לכד 10 כדורים אדומים, מה יהיה היחס החדש בין הכדורים האדומים לירוקים?",
+          "answers": ["15:7", "15:35", "1:1", "5:17"],
+          "correctAnswers": ["1:1"]
+        }
+      ]
+    }
+  ]
+}

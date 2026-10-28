@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>النسبة — الكمية الناقصة (الهدف 1.6)</title>
+  <script>
+    /* LOCAL USE ONLY — never shipped (rule 28.09.26: the platforms launch each component by its own
+       link, so a deployment package has nothing at its root; package-allowlist.ps1).
+       The query string (?slxapi, ?registration) is carried so a local launch still reports.
+       ⚠️ Name index.html explicitly: the MOE CDN does not resolve a folder URL to its index —
+       '…/methodica-math-ratio-06-01/' answers 200 with 0 bytes (a blank page), seen live 28.09.26. */
+    function toFirstComponent(){
+      window.location.replace('./methodica-math-ratio-06-01/index.html' + window.location.search);
+    }
+    toFirstComponent();
+  </script>
+</head>
+<body>
+  <p>
+    جارٍ نقلك إلى الوحدة التعليمية… <br />
+    <span onclick="toFirstComponent();" style="text-decoration: underline; color: blue;cursor: pointer;">اضغطوا هنا إذا لم يتم تحميل الصفحة</span>
+  </p>
+</body>
+</html>

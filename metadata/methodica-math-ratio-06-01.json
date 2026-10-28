@@ -1,0 +1,37 @@
+{
+  "id": "https://lomdot.education.gov.il/metodica/720active/math/ratio/06/methodica-math-ratio-06-01/",
+  "title": "בואו נלמד משהו חדש",
+  "learningUnitId": "methodica-math-ratio-06",
+  "componentPurpose": "both",
+  "isAssessment": false,
+  "recommendedAfterFail": [],
+  "isRequired": true,
+  "relativeDifficulty": 2,
+  "masteryLevel": null,
+  "order": 1,
+  "depthLevel": "core-curriculum-basic",
+  "cognitiveLevels": ["process-thinking"],
+  "languages": ["Hebrew"],
+  "skills": [],
+  "estimatedTimeInMinutes": 2,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "subContent": [
+    {
+      "id": "https://lomdot.education.gov.il/metodica/720active/math/ratio/06/methodica-math-ratio-06-01/methodica-math-ratio-06-01-001/",
+      "title": "ארגזי תרומה - יחס שימורים ומוצרים יבשים",
+      "informationToBot": "מטרת הפריט: הוק פותח שממחיש שימוש ביחס בהקשר אמיתי (אריזת ארגזי תרומה) ומוביל ישירות לשאלת יישום ראשונה. מה התלמיד אמור להבין/לתרגל: בהינתן יחס קבוע (3:4 בין שימורים למוצרים יבשים) וכמות בפועל של אחד המרכיבים (12 קופסאות שימורים), יש למצוא את ערך ה'חלק' ביחס (12:3=4) ולהכפיל בחלק המבוקש (4·4=16) כדי למצוא את הכמות החסרה. טעויות נפוצות: חלוקה/הכפלה בסדר הפוך; בלבול בין חלקי היחס (3 מול 4) לבין הכמויות בפועל. מידע נוסף: ניסיון מענה אחד בלבד, ללא רמז (חריג יחיד בכל היחידה לכלל 'רמז אחרי טעות אחת'). הפריט כולל תוכן פתיחה (תיאור מבצע ההתנדבות) לפני השאלה, ותוכן סיום (עידוד מהדמות המלווה) אחריה, המובילים ישירות לרכיב התרגול.",
+      "contentType": "motivational",
+      "mediaFormat": "interactive-content",
+      "questions": [
+        {
+          "questionId": "https://lomdot.education.gov.il/metodica/720active/math/ratio/06/methodica-math-ratio-06-01/methodica-math-ratio-06-01-001/q1",
+          "questionType": "choice",
+          "questionText": "השימורים כבר מסודרים בארגזים, אבל את המוצרים היבשים צריך להוסיף לפי היחס הנכון (3:4). באחד הארגזים כבר יש 12 קופסאות שימורים. כמה מוצרי מזון יבשים צריך להוסיף לארגז כדי שהיחס של שימורים ומוצרי מזון יבשים יישאר 3:4?",
+          "answers": ["4", "9", "16", "24"],
+          "correctAnswers": ["16"]
+        }
+      ]
+    }
+  ]
+}

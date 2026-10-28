@@ -1,0 +1,1235 @@
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="he" datatype="html" original="index.html" target-language="ar">
+    <body>
+      <trans-unit id="methodica-math-ratio-06-index-001">
+        <source>יחס — כמות חסרה (יעד 1.6)</source>
+        <target>النسبة — الكمية الناقصة (الهدف 1.6)</target>
+        <note from="source-location">index.html:5</note>
+        <note from="kind">text</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-index-002">
+        <source>מעבירים אותך ללומדה…</source>
+        <target>جارٍ نقلك إلى الوحدة التعليمية…</target>
+        <note from="source-location">index.html:15</note>
+        <note from="kind">text</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-index-003">
+        <source>לחצו כאן אם הדף לא נטען</source>
+        <target>اضغطوا هنا إذا لم يتم تحميل الصفحة</target>
+        <note from="source-location">index.html:16</note>
+        <note from="kind">text</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="he" datatype="html" original="methodica-math-ratio-06-01/index.html" target-language="ar">
+    <body>
+      <trans-unit id="methodica-math-ratio-06-01-index-001">
+        <source>יחס — כמות חסרה (יעד 1.6) · רכיב 01</source>
+        <target>النسبة — الكمية الناقصة (الهدف 1.6) · المكون 01</target>
+        <note from="source-location">methodica-math-ratio-06-01/index.html:6</note>
+        <note from="kind">text</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-01-index-002">
+        <source>מצאתם בעיה?</source>
+        <target>هل وجدتم مشكلة؟</target>
+        <note from="source-location">methodica-math-ratio-06-01/index.html:51</note>
+        <note from="kind">attr:aria-label</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-01-index-003">
+        <source>מצאתם בעיה?</source>
+        <target>هل وجدتم مشكلة؟</target>
+        <note from="source-location">methodica-math-ratio-06-01/index.html:66</note>
+        <note from="kind">text</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-01-index-004">
+        <source>כמו בכל שנה לקראת החגים, היום בבוקר מתקיים</source>
+        <target>مثلما يحدث كل عام مع اقتراب الأعياد، يحدث في صباح اليوم</target>
+        <note from="source-location">methodica-math-ratio-06-01/index.html:76</note>
+        <note from="kind">text</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-01-index-005">
+        <source>מבצע התנדבות בבית הספר:</source>
+        <target>حملة التطوّع في المدرسة:</target>
+        <note from="source-location">methodica-math-ratio-06-01/index.html:77</note>
+        <note from="kind">text</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-01-index-006">
+        <source>אריזת ארגזי מזון לקשישות וקשישים בקהילה.</source>
+        <target>تعبئة صناديق الغذاء لكبار السن في المجتمع.</target>
+        <note from="source-location">methodica-math-ratio-06-01/index.html:78</note>
+        <note from="kind">text</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-01-index-007">
+        <source>לימור רכזת השכבה מסבירה לכם כלל חשוב:</source>
+        <target>تشرح لكم ليمور منسّقة الصف قاعدة مهمة:</target>
+        <note from="source-location">methodica-math-ratio-06-01/index.html:79</note>
+        <note from="kind">text</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-01-index-008">
+        <source>בכל ארגז נשים שימורים ומוצרים יבשים ביחס</source>
+        <target>في كل صندوق نضع المربّيات والمنتجات الجافة بنسبة</target>
+        <note from="source-location">methodica-math-ratio-06-01/index.html:80</note>
+        <note from="kind">text</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-01-index-009">
+        <source>קבוע של</source>
+        <target>نسبة ثابتة من</target>
+        <note from="source-location">methodica-math-ratio-06-01/index.html:81</note>
+        <note from="kind">text</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-01-index-010">
+        <source>כדי שכל הארגזים יהיו שווים, וכל</source>
+        <target>لكي تكون جميع الصناديق متساوية، وكل</target>
+        <note from="source-location">methodica-math-ratio-06-01/index.html:81</note>
+        <note from="kind">text</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-01-index-011">
+        <source>מבוגרת ומבוגר יקבלו אותה כמות בדיוק</source>
+        <target>شخص بالغ سيحصل على نفس الكمية بالضبط</target>
+        <note from="source-location">methodica-math-ratio-06-01/index.html:82</note>
+        <note from="kind">text</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-01-index-012">
+        <source>תלמידות ותלמידים אורזים ארגזי מזון בבית הספר</source>
+        <target>يعبئُ الطلاب والطالبات صناديق غذائية في المدرسة</target>
+        <note from="source-location">methodica-math-ratio-06-01/index.html:85</note>
+        <note from="kind">attr:alt</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-01-index-013">
+        <source>המשך</source>
+        <target>متابعة</target>
+        <note from="source-location">methodica-math-ratio-06-01/index.html:88</note>
+        <note from="kind">text</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-01-index-014">
+        <source>יחס בין כמויות חשוב במילוי ארגזי תרומה משווים, אבל הוא גם חשוב</source>
+        <target>النسبة بين الكميات مهمة في ملء صناديق التبرعات المتطابقة، لكنها مهمة أيضاً</target>
+        <note from="source-location">methodica-math-ratio-06-01/index.html:98</note>
+        <note from="kind">text</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-01-index-015">
+        <source>במצבים שונים ורבים בחיים האמתיים.</source>
+        <target>في حالات مختلفة وعديدة في الحياة الحقيقية.</target>
+        <note from="source-location">methodica-math-ratio-06-01/index.html:98</note>
+        <note from="kind">text</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-01-index-016">
+        <source>ביחידה הזו</source>
+        <target>في هذه الوحدة</target>
+        <note from="source-location">methodica-math-ratio-06-01/index.html:99</note>
+        <note from="kind">text</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-01-index-017">
+        <source>נתרגל פתרון בעיות בהן נתון יחס בין כמויות ונתון נוסף אחד</source>
+        <target>دعنا نتدرب على حل المسائل التي يُعطى فيها نسبة بين كميتين ومعطى إضافي واحد</target>
+        <note from="source-location">methodica-math-ratio-06-01/index.html:99</note>
+        <note from="kind">text</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-01-index-018">
+        <source>אנחנו נצטרך למצוא את הכמות החסרה</source>
+        <target>سنحتاج إلى إيجاد الكمية الناقصة</target>
+        <note from="source-location">methodica-math-ratio-06-01/index.html:100</note>
+        <note from="kind">text</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-01-index-019">
+        <source>קדימה – אפשר</source>
+        <target>يلّا – من الممكن!</target>
+        <note from="source-location">methodica-math-ratio-06-01/index.html:110</note>
+        <note from="kind">text</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-01-index-020">
+        <source>להתחיל!</source>
+        <target>لنبدأ!</target>
+        <note from="source-location">methodica-math-ratio-06-01/index.html:110</note>
+        <note from="kind">text</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-01-index-021">
+        <source>הדמות המלווה</source>
+        <target>الشخصية المرافقة</target>
+        <note from="source-location">methodica-math-ratio-06-01/index.html:112</note>
+        <note from="kind">attr:alt</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-01-index-022">
+        <source>המשך</source>
+        <target>متابعة</target>
+        <note from="source-location">methodica-math-ratio-06-01/index.html:115</note>
+        <note from="kind">text</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-01-index-023">
+        <source>חזרה</source>
+        <target>رجوع</target>
+        <note from="source-location">methodica-math-ratio-06-01/index.html:116</note>
+        <note from="kind">text</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-01-index-024">
+        <source>רמז</source>
+        <target>تلميح</target>
+        <note from="source-location">methodica-math-ratio-06-01/index.html:119</note>
+        <note from="kind">attr:aria-label</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-01-index-025">
+        <source>זוכרים איך לחשב?</source>
+        <target>هل تتذكرون كيف تحسبون؟</target>
+        <note from="source-location">methodica-math-ratio-06-01/index.html:126</note>
+        <note from="kind">text</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-01-index-026">
+        <source>חזרה לשאלה</source>
+        <target>رجوع إلى السؤال</target>
+        <note from="source-location">methodica-math-ratio-06-01/index.html:128</note>
+        <note from="kind">text</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-01-index-027">
+        <source>סגור</source>
+        <target>إغلاق</target>
+        <note from="source-location">methodica-math-ratio-06-01/index.html:135</note>
+        <note from="kind">attr:aria-label</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-01-index-028">
+        <source>דיווח על בעיה</source>
+        <target>الإبلاغ عن مشكلة</target>
+        <note from="source-location">methodica-math-ratio-06-01/index.html:136</note>
+        <note from="kind">text</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-01-index-029">
+        <source>משהו לא ברור או לא עובד כמו שצריך? ספרו לנו מה קרה כדי שנטפל.</source>
+        <target>هل هناك شيء غير واضح أو لا يعمل بشكل صحيح؟ أخبرونا بما حدث حتى نتمكن من المعالجة.</target>
+        <note from="source-location">methodica-math-ratio-06-01/index.html:137</note>
+        <note from="kind">text</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-01-index-030">
+        <source>מה סוג הבעיה</source>
+        <target>ما نوع المشكلة</target>
+        <note from="source-location">methodica-math-ratio-06-01/index.html:139</note>
+        <note from="kind">text</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-01-index-031">
+        <source>בחרו סוג בעיה</source>
+        <target>اختر نوع المشكلة</target>
+        <note from="source-location">methodica-math-ratio-06-01/index.html:141</note>
+        <note from="kind">text</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-01-index-032">
+        <source>תקלה טכנית או שמשהו לא עובד</source>
+        <target>عطل تقني أو أن شيئاً ما لا يعمل</target>
+        <note from="source-location">methodica-math-ratio-06-01/index.html:142</note>
+        <note from="kind">text</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-01-index-033">
+        <source>משהו לא ברור לי</source>
+        <target>شيء ما غير واضح لي</target>
+        <note from="source-location">methodica-math-ratio-06-01/index.html:143</note>
+        <note from="kind">text</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-01-index-034">
+        <source>אחר</source>
+        <target>أخر</target>
+        <note from="source-location">methodica-math-ratio-06-01/index.html:144</note>
+        <note from="kind">text</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-01-index-035">
+        <source>מה קרה?</source>
+        <target>ماذا حدث؟</target>
+        <note from="source-location">methodica-math-ratio-06-01/index.html:148</note>
+        <note from="kind">text</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-01-index-036">
+        <source>תארו את הבעיה...</source>
+        <target>صف المشكلة...</target>
+        <note from="source-location">methodica-math-ratio-06-01/index.html:149</note>
+        <note from="kind">attr:placeholder</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-01-index-037">
+        <source>נא לבחור סוג בעיה ולתאר מה קרה.</source>
+        <target>يرجى تحديد نوع المشكلة ووصف ما حدث.</target>
+        <note from="source-location">methodica-math-ratio-06-01/index.html:152</note>
+        <note from="kind">text</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-01-index-038">
+        <source>שליחה</source>
+        <target>إرسال</target>
+        <note from="source-location">methodica-math-ratio-06-01/index.html:154</note>
+        <note from="kind">text</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-01-index-039">
+        <source>ביטול</source>
+        <target>إلغاء</target>
+        <note from="source-location">methodica-math-ratio-06-01/index.html:155</note>
+        <note from="kind">text</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-01-index-040">
+        <source>תודה! הדיווח נשלח. נטפל בהקדם.</source>
+        <target>شكرًا! تم إرسال البلاغ. سنتعامل معه في أقرب وقت.</target>
+        <note from="source-location">methodica-math-ratio-06-01/index.html:158</note>
+        <note from="kind">text</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-01-index-041">
+        <source>סגירה</source>
+        <target>إغلاق</target>
+        <note from="source-location">methodica-math-ratio-06-01/index.html:159</note>
+        <note from="kind">text</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-01-index-042">
+        <source>בטוח לסגור את החלון?</source>
+        <target>هل أنت متأكد من إغلاق النافذة؟</target>
+        <note from="source-location">methodica-math-ratio-06-01/index.html:165</note>
+        <note from="kind">text</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-01-index-043">
+        <source>בלחיצה על סגירה לא יישלח דיווח</source>
+        <target>بالنقر على إغلاق لن يتم إرسال تقرير</target>
+        <note from="source-location">methodica-math-ratio-06-01/index.html:166</note>
+        <note from="kind">text</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-01-index-044">
+        <source>סגור חלון</source>
+        <target>إغلاق النافذة</target>
+        <note from="source-location">methodica-math-ratio-06-01/index.html:168</note>
+        <note from="kind">text</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-01-index-045">
+        <source>אני רוצה לדווח</source>
+        <target>أريد الإبلاغ</target>
+        <note from="source-location">methodica-math-ratio-06-01/index.html:169</note>
+        <note from="kind">text</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="he" datatype="html" original="methodica-math-ratio-06-02/index.html" target-language="ar">
+    <body>
+      <trans-unit id="methodica-math-ratio-06-02-index-001">
+        <source>יחס — כמות חסרה (יעד 1.6) · רכיב 02</source>
+        <target>نسبة — كمية ناقصة (هدف 1.6) · مكون 02</target>
+        <note from="source-location">methodica-math-ratio-06-02/index.html:6</note>
+        <note from="kind">text</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-02-index-002">
+        <source>מצאתם בעיה?</source>
+        <target>هل وجدتم مشكلة؟</target>
+        <note from="source-location">methodica-math-ratio-06-02/index.html:14</note>
+        <note from="kind">attr:aria-label</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-02-index-003">
+        <source>מצאתם בעיה?</source>
+        <target>هل وجدتم مشكلة؟</target>
+        <note from="source-location">methodica-math-ratio-06-02/index.html:29</note>
+        <note from="kind">text</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-02-index-004">
+        <source>נעבור לתרגול ונענה על</source>
+        <target>دعونا نتدرب ونجيب على</target>
+        <note from="source-location">methodica-math-ratio-06-02/index.html:38</note>
+        <note from="kind">text</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-02-index-005">
+        <source>10 שאלות שביחד מהוות שאלות שיא.</source>
+        <target>10 أسئلة تشكل معاً أسئلة قياسية.</target>
+        <note from="source-location">methodica-math-ratio-06-02/index.html:39</note>
+        <note from="kind">text</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-02-index-006">
+        <source>צריך לענות נכון על 7 שאלות לפחות.</source>
+        <target>يجب الإجابة بشكل صحيح على 7 أسئلة على الأقل.</target>
+        <note from="source-location">methodica-math-ratio-06-02/index.html:40</note>
+        <note from="kind">text</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-02-index-007">
+        <source>הדמות המלווה מנופפת</source>
+        <target>الشخصية المرافقة تلوح</target>
+        <note from="source-location">methodica-math-ratio-06-02/index.html:43</note>
+        <note from="kind">attr:aria-label</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-02-index-008">
+        <source>אפשר להתחיל!</source>
+        <target>يمكن البدء!</target>
+        <note from="source-location">methodica-math-ratio-06-02/index.html:46</note>
+        <note from="kind">text</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-02-index-009">
+        <source>רמז</source>
+        <target>تلميح</target>
+        <note from="source-location">methodica-math-ratio-06-02/index.html:49</note>
+        <note from="kind">attr:aria-label</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-02-index-010">
+        <source>זוכרים איך לחשב?</source>
+        <target>هل تتذكرون كيف تحسبون؟</target>
+        <note from="source-location">methodica-math-ratio-06-02/index.html:56</note>
+        <note from="kind">text</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-02-index-011">
+        <source>חזרה לשאלה</source>
+        <target>رجوع إلى السؤال</target>
+        <note from="source-location">methodica-math-ratio-06-02/index.html:58</note>
+        <note from="kind">text</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-02-index-012">
+        <source>סגור</source>
+        <target>إغلاق</target>
+        <note from="source-location">methodica-math-ratio-06-02/index.html:65</note>
+        <note from="kind">attr:aria-label</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-02-index-013">
+        <source>דיווח על בעיה</source>
+        <target>الإبلاغ عن مشكلة</target>
+        <note from="source-location">methodica-math-ratio-06-02/index.html:66</note>
+        <note from="kind">text</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-02-index-014">
+        <source>משהו לא ברור או לא עובד כמו שצריך? ספרו לנו מה קרה כדי שנטפל.</source>
+        <target>هل هناك شيء غير واضح أو لا يعمل بشكل صحيح؟ أخبرونا بما حدث حتى نتمكن من المعالجة.</target>
+        <note from="source-location">methodica-math-ratio-06-02/index.html:67</note>
+        <note from="kind">text</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-02-index-015">
+        <source>מה סוג הבעיה</source>
+        <target>ما نوع المشكلة</target>
+        <note from="source-location">methodica-math-ratio-06-02/index.html:69</note>
+        <note from="kind">text</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-02-index-016">
+        <source>בחרו סוג בעיה</source>
+        <target>اختر نوع المشكلة</target>
+        <note from="source-location">methodica-math-ratio-06-02/index.html:71</note>
+        <note from="kind">text</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-02-index-017">
+        <source>תקלה טכנית או שמשהו לא עובד</source>
+        <target>عطل تقني أو أن شيئاً ما لا يعمل</target>
+        <note from="source-location">methodica-math-ratio-06-02/index.html:72</note>
+        <note from="kind">text</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-02-index-018">
+        <source>משהו לא ברור לי</source>
+        <target>شيء ما غير واضح لي</target>
+        <note from="source-location">methodica-math-ratio-06-02/index.html:73</note>
+        <note from="kind">text</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-02-index-019">
+        <source>אחר</source>
+        <target>أخر</target>
+        <note from="source-location">methodica-math-ratio-06-02/index.html:74</note>
+        <note from="kind">text</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-02-index-020">
+        <source>מה קרה?</source>
+        <target>ماذا حدث؟</target>
+        <note from="source-location">methodica-math-ratio-06-02/index.html:78</note>
+        <note from="kind">text</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-02-index-021">
+        <source>תארו את הבעיה...</source>
+        <target>صف المشكلة...</target>
+        <note from="source-location">methodica-math-ratio-06-02/index.html:79</note>
+        <note from="kind">attr:placeholder</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-02-index-022">
+        <source>נא לבחור סוג בעיה ולתאר מה קרה.</source>
+        <target>يرجى تحديد نوع المشكلة ووصف ما حدث.</target>
+        <note from="source-location">methodica-math-ratio-06-02/index.html:82</note>
+        <note from="kind">text</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-02-index-023">
+        <source>שליחה</source>
+        <target>إرسال</target>
+        <note from="source-location">methodica-math-ratio-06-02/index.html:84</note>
+        <note from="kind">text</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-02-index-024">
+        <source>ביטול</source>
+        <target>إلغاء</target>
+        <note from="source-location">methodica-math-ratio-06-02/index.html:85</note>
+        <note from="kind">text</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-02-index-025">
+        <source>תודה! הדיווח נשלח. נטפל בהקדם.</source>
+        <target>شكرًا! تم إرسال البلاغ. سنتعامل معه في أقرب وقت.</target>
+        <note from="source-location">methodica-math-ratio-06-02/index.html:88</note>
+        <note from="kind">text</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-02-index-026">
+        <source>סגירה</source>
+        <target>إغلاق</target>
+        <note from="source-location">methodica-math-ratio-06-02/index.html:89</note>
+        <note from="kind">text</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-02-index-027">
+        <source>בטוח לסגור את החלון?</source>
+        <target>هل أنت متأكد من إغلاق النافذة؟</target>
+        <note from="source-location">methodica-math-ratio-06-02/index.html:95</note>
+        <note from="kind">text</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-02-index-028">
+        <source>בלחיצה על סגירה לא יישלח דיווח</source>
+        <target>بالنقر على إغلاق لن يتم إرسال تقرير</target>
+        <note from="source-location">methodica-math-ratio-06-02/index.html:96</note>
+        <note from="kind">text</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-02-index-029">
+        <source>סגור חלון</source>
+        <target>إغلاق النافذة</target>
+        <note from="source-location">methodica-math-ratio-06-02/index.html:98</note>
+        <note from="kind">text</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-02-index-030">
+        <source>אני רוצה לדווח</source>
+        <target>أريد الإبلاغ</target>
+        <note from="source-location">methodica-math-ratio-06-02/index.html:99</note>
+        <note from="kind">text</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="he" datatype="javascript" original="unit-js/questions.js" target-language="ar">
+    <body>
+      <trans-unit id="methodica-math-ratio-06-unit-js-questions-001">
+        <source>זה לא מדויק, ננסה שוב?</source>
+        <target>هذا غير دقيق، هل نحاول مجدداً؟</target>
+        <note from="source-location">unit-js/questions.js:27</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-questions-002">
+        <source>השימורים כבר מסודרים בארגזים, אבל את המוצרים&lt;br&gt;
+      היבשים צריך להוסיף לפי היחס הנכון (${ratio('3:4')}).
+      &lt;span class="q-ask"&gt;באחד הארגזים כבר יש 12 קופסות שימורים.&lt;br&gt;
+      כמה מוצרי מזון יבשים צריך להוסיף לארגז כדי שהיחס של&lt;br&gt;שימורים ומוצרי מזון יבשים יישאר ${ratio('3:4')}?&lt;/span&gt;</source>
+        <target>الحفاظ بالفعل موضوعة في الصناديق، لكن عليك إضافة المنتجات
+الجافة بحسب النسبة الصحيحة ({1}3:4{/1}).
+{2}&lt;br&gt;
+في أحد الصناديق يوجد بالفعل 12 علبة حفاظ.
+كم منتج غذائي جاف عليك إضافة إلى الصندوق لكي تبقى النسبة بين
+الحفاظ والمنتجات الجافة {3}3:4{/3}؟{/2}</target>
+        <note from="source-location">unit-js/questions.js:53</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-questions-003">
+        <source>&lt;img class="q-photo" src="assets/img/hook-dry-goods.jpg" alt="בני נוער אורזים מוצרים יבשים בארגזי מזון"&gt;</source>
+        <target>&lt;img class="q-photo" src="assets/img/hook-dry-goods.jpg" alt="مراهقون يعبئون منتجات جافة في صناديق غذائية"&gt;</target>
+        <note from="source-location">unit-js/questions.js:57</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-questions-004">
+        <source>נכון מאוד.</source>
+        <target>صحيح جداً</target>
+        <note from="source-location">unit-js/questions.js:67</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-questions-005">
+        <source>
+&lt;p&gt;החלק של השימורים ביחס הוא 3,&lt;br&gt;השווים בפועל ל-12 קופסאות שימורים.&lt;/p&gt;
+&lt;p&gt;כדי למצוא את הערך של "חלק" אחד ביחס נחלק: ${eq('12 : 3 = 4')}&lt;br&gt;כל חלק ביחס שווה ל – 4 פריטים.&lt;/p&gt;
+&lt;p&gt;מוצרי המזון היבשים מיוצגים על ידי 4 חלקים ולכן נכפיל חלק אחד ב-4.&lt;/p&gt;
+${eqc('4 · 4 = 16')}
+&lt;p&gt;בארגז צריך להוסיף 16 מוצרי מזון יבשים.&lt;br&gt;התשובה הנכונה היא 16.&lt;/p&gt;</source>
+        <target>&lt;p&gt;الجزء الخاص بالمعلّبات في النسبة هو 3،&lt;br&gt;وهو يساوي فعليًا 12 علبة معلّبات.&lt;/p&gt;
+&lt;p&gt;لإيجاد قيمة "جزء" واحد في النسبة نقسم: ${eq('12: 3 = 4')}&lt;br&gt;كل جزء في النسبة يساوي – 4 أشياء.&lt;/p&gt;
+&lt;p&gt;المواد الغذائية الجافة يتم تمثيلها بـ 4 أجزاء، لذلك نضرب جزءًا واحدًا في 4.&lt;/p&gt;
+${eqc('4 · 4 = 16')}
+&lt;p&gt;يجب إضافة 16 مادة غذائية جافة إلى الصندوق.&lt;br&gt;الإجابة الصحيحة هي 16.&lt;/p&gt;</target>
+        <note from="source-location">unit-js/questions.js:67</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-questions-006">
+        <source>אופס, לא בדיוק. הנה ההסבר:</source>
+        <target>آه، ليس بالضبط. إليك الشرح:</target>
+        <note from="source-location">unit-js/questions.js:73</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-questions-007">
+        <source>באוטובוס ישנם 36 ילדים ומבוגרים.&lt;br&gt;
+      היחס בין מספר הילדים למבוגרים על האוטובוס הוא ${ratio('4:5')}.
+      &lt;span class="q-ask"&gt;כמה ילדים באוטובוס?&lt;/span&gt;</source>
+        <target>في الحافلة يوجد 36 طفلاً وبالغاً.&lt;br&gt;
+النسبة بين عدد الأطفال والبالغين في الحافلة هي ${ratio('4:5')}.
+&lt;span class="q-ask"&gt;كم عدد الأطفال في الحافلة؟&lt;/span&gt;</target>
+        <note from="source-location">unit-js/questions.js:89</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-questions-008">
+        <source>&lt;img class="q-photo" src="assets/img/q1-bus.jpg" alt="ילדים ומבוגרים נוסעים באוטובוס"&gt;</source>
+        <target>&lt;img class="q-photo" src="assets/img/q1-bus.jpg" alt="أطفال وبالغون يسافرون بالحافلة"&gt;</target>
+        <note from="source-location">unit-js/questions.js:92</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-questions-009">
+        <source>היחס ${ratio('4:5')} משמעו שהנוסעים מחולקים לקבוצות שוות.&lt;br&gt;כמה "חלקים" (או "מנות") יש בסך הכל באוטובוס.&lt;br&gt;כמה מתוכם מייצגים את הילדים?</source>
+        <target>النسبة ${ratio('4:5')} تعني أن الركاب مقسمون إلى مجموعات متساوية.&lt;br&gt;كم عدد "الأجزاء" (أو "الحصص") في المجموع على الحافلة.&lt;br&gt;كم عدد منها يمثّل الأطفال؟</target>
+        <note from="source-location">unit-js/questions.js:101</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-questions-010">
+        <source>תשובה נכונה.</source>
+        <target>إجابة صحيحة.</target>
+        <note from="source-location">unit-js/questions.js:102</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-questions-011">
+        <source>
+&lt;p&gt;סכום חלקי היחס הוא 9 (4 חלקים של ילדים + 5 חלקים של מבוגרים).&lt;/p&gt;
+&lt;p&gt;כלומר, אפשר לחלק את 36 הנוסעים ל-9 קבוצות שוות.&lt;/p&gt;
+&lt;p&gt;נבדוק כמה נוסעים יש בכל חלק:&lt;/p&gt;
+${eqc('36 : 9 = 4')}
+&lt;p&gt;מכיוון שמספר הילדים מיוצג על ידי 4 חלקים, נכפיל את כמות החלקים במספר הנוסעים שבכל חלק:&lt;/p&gt;
+${eqc('4 · 4 = 16')}
+&lt;p&gt;ישנם 16 ילדים באוטובוס.&lt;/p&gt;</source>
+        <target>&lt;p&gt;مجموع أجزاء النسبة هو 9 (4 أجزاء من الأطفال + 5 أجزاء من البالغين).&lt;/p&gt;
+&lt;p&gt;أي أنه يمكننا تقسيم 36 الركاب إلى 9 مجموعات متساوية.&lt;/p&gt;
+&lt;p&gt;دعنا نتحقق من عدد الركاب في كل جزء:&lt;/p&gt;
+${eqc('36: 9 = 4')}
+&lt;p&gt;بما أن عدد الأطفال يتم تمثيله بـ 4 أجزاء، سنضرب عدد الأجزاء في عدد الركاب في كل جزء:&lt;/p&gt;
+${eqc('4 · 4 = 16')}
+&lt;p&gt;يوجد 16 طفلاً في الحافلة.&lt;/p&gt;</target>
+        <note from="source-location">unit-js/questions.js:102</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-questions-012">
+        <source>טעית, מצוין שניסית, עכשיו אפשר לדייק:</source>
+        <target>أخطأت، رائع أنك حاولت، الآن يمكننا أن نكون أكثر دقة:</target>
+        <note from="source-location">unit-js/questions.js:110</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-questions-013">
+        <source>שמיכת משבצות מורכבת מריבועים צהובים וריבועים כחולים ביחס של ${ratio('3:5')}.&lt;br&gt;
+      (מספר הריבועים הצהובים קטן יותר).&lt;br&gt;
+      בשמיכה יש בסך הכל 27 ריבועים צהובים.&lt;br&gt;
+      &lt;span class="q-ask"&gt;כמה ריבועים כחולים בשמיכה?&lt;/span&gt;</source>
+        <target>تتكون البطانية المربعة من مربعات صفراء ومربعات زرقاء بنسبة ${ratio('3:5')}.&lt;br&gt;
+ (عدد المربعات الصفراء أقل).&lt;br&gt;
+ تحتوي البطانية على 27 مربعًا أصفر في المجموع.&lt;br&gt;
+ &lt;span class="q-ask"&gt;كم عدد المربعات الزرقاء في البطانية؟&lt;/span&gt;</target>
+        <note from="source-location">unit-js/questions.js:117</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-questions-014">
+        <source>מספר הריבועים הכחולים</source>
+        <target>عدد المربعات الزرقاء</target>
+        <note from="source-location">unit-js/questions.js:121</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-questions-015">
+        <source>3 "חלקים" ביחס מייצגים 27 ריבועים צהובים.&lt;br&gt;כמה ריבועים יש ב"חלק" אחד?</source>
+        <target>3 {1}أجزاء{/1} في النسبة تمثّل 27 مربعاً أصفر.&lt;br&gt;كم عدد المربعات في {1}جزء{/1} واحد؟</target>
+        <note from="source-location">unit-js/questions.js:124</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-questions-016">
+        <source>נכון!</source>
+        <target>صحيح!</target>
+        <note from="source-location">unit-js/questions.js:125</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-questions-017">
+        <source>
+&lt;p&gt;החלק של הריבועים הצהובים הוא 3,&lt;br&gt;והם שווים ל-27 ריבועים בפועל.&lt;/p&gt;
+&lt;p&gt;כדי למצוא את הערך של "חלק" אחד ביחס, נחלק: ${eq('27 : 3 = 9')}&lt;br&gt;כל חלק ביחס שווה ל-9 ריבועים.&lt;/p&gt;
+&lt;p&gt;הריבועים הכחולים מיוצגים על ידי 5 חלקים. לכן, נכפיל את הערך של חלק אחד ב-5:&lt;/p&gt;
+${eqc('5 · 9 = 45')}
+&lt;p&gt;&lt;strong&gt;בשמיכה יש 45 ריבועים כחולים.&lt;/strong&gt;&lt;/p&gt;</source>
+        <target>&lt;p&gt;الجزء من المربعات الصفراء هو 3،&lt;br&gt;وهي تساوي 27 مربعًا فعليًا.&lt;/p&gt;
+&lt;p&gt;لكي نجد قيمة "جزء" واحد في النسبة، نقسم: ${eq('27: 3 = 9')}&lt;br&gt;كل جزء في النسبة يساوي 9 مربعات.&lt;/p&gt;
+&lt;p&gt;المربعات الزرقاء يتم تمثيلها بـ 5 أجزاء. لذلك، نضرب قيمة جزء واحد في 5:&lt;/p&gt;
+${eqc('5 · 9 = 45')}
+&lt;p&gt;&lt;strong&gt;في البطانية يوجد 45 مربعًا أزرق.&lt;/strong&gt;&lt;/p&gt;</target>
+        <note from="source-location">unit-js/questions.js:125</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-questions-018">
+        <source>זו טעות, אבל גם מטעויות לומדים.&lt;br&gt;התשובה הנכונה מוצגת.</source>
+        <target>هذا خطأ، لكننا نتعلم من الأخطاء أيضًا.&lt;br&gt;الإجابة الصحيحة معروضة هنا.</target>
+        <note from="source-location">unit-js/questions.js:131</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-questions-019">
+        <source>יואב צריך 10 ליטרים של צבע לצביעת החדר שלו.&lt;br&gt;
+      הוא בחר צבע הנוצר מערבוב של כחול וירוק ביחס של ${ratio('3:2')}.
+      &lt;span class="q-ask"&gt;כמה ליטרים של צבע כחול יואב צריך?&lt;/span&gt;</source>
+        <target>يوآف يحتاج إلى 10 ليترات من الطلاء لتلوين غرفته.
+اختار لونًا يتكون من خلط الأزرق والأخضر بنسبة ${ratio('3:2')}.
+كم لترًا من الطلاء الأزرق يحتاج يوآف؟</target>
+        <note from="source-location">unit-js/questions.js:140</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-questions-020">
+        <source>ליטרים</source>
+        <target>ليترات</target>
+        <note from="source-location">unit-js/questions.js:143</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-questions-021">
+        <source>כמות הצבע הכחול</source>
+        <target>كمية الصبغة الزرقاء</target>
+        <note from="source-location">unit-js/questions.js:143</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-questions-022">
+        <source>מצאו לכמה חלקים שווים מחולקת כמות הצבע הכוללת, וכמה ליטרים שווים לכל חלק כזה.&lt;br&gt;זכרו שהכחול מוזכר ראשון ולכן מתאים למספר הראשון ביחס (3).</source>
+        <target>ابحثوا عن عدد الأجزاء المتساوية التي تُقسّم إليها كمية الطلاء الكلية، وكم لتراً يساوي كل جزء من هذه الأجزاء.&lt;br&gt;تذكروا أن الأزرق مذكور أولاً ولذلك يطابق الرقم الأول في النسبة (3).</target>
+        <note from="source-location">unit-js/questions.js:146</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-questions-023">
+        <source>נכון!</source>
+        <target>صحيح!</target>
+        <note from="source-location">unit-js/questions.js:147</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-questions-024">
+        <source>
+&lt;p&gt;סך כל החלקים בתערובת הוא 5&lt;br&gt;(3 חלקים של כחול + 2 חלקים של ירוק).&lt;/p&gt;
+&lt;p&gt;כמות הצבע הכוללת היא 10 ליטרים.&lt;/p&gt;
+&lt;p&gt;נמצא כמה ליטרים יש בכל "חלק":&lt;/p&gt;
+${eqc('10 : 5 = 2')}
+&lt;p&gt;הצבע הכחול מיוצג על ידי 3 חלקים, ולכן נכפיל: ${eq('2 · 3 = 6')}&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;יואב צריך 6 ליטרים של צבע כחול.&lt;/strong&gt;&lt;/p&gt;</source>
+        <target>&lt;p&gt;سكّ كل الأجزاء في الخليط هو 5&lt;br&gt;(3 أجزاء من الأزرق + 2 جزء من الأخضر).&lt;/p&gt;
+&lt;p&gt;كمية الصبغة الكلية هي 10 لترات.&lt;/p&gt;
+&lt;p&gt;نجد كم لتراً يوجد في كل "جزء":&lt;/p&gt;
+${eqc('10: 5 = 2')}
+&lt;p&gt;الصبغة الزرقاء تمثلها 3 أجزاء، لذلك نضرب: ${eq('2 · 3 = 6')}&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;يوآف يحتاج إلى 6 لترات من الصبغة الزرقاء.&lt;/strong&gt;&lt;/p&gt;</target>
+        <note from="source-location">unit-js/questions.js:147</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-questions-025">
+        <source>זו טעות. התשובה הנכונה מוצגת.&lt;br&gt;כדאי להמשיך לתרגל.</source>
+        <target>هذا خطأ. الإجابة الصحيحة معروضة أدناه.
+من الجيد أن تستمر في التدرب.</target>
+        <note from="source-location">unit-js/questions.js:154</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-questions-026">
+        <source>תערובת מתכות עשויה מזהב וכסף ביחס של ${ratio('1:4')}.
+      &lt;span class="q-ask"&gt;מהו משקל הכסף, בגרמים, ב-40 גרם מתערובת מתכות זו?&lt;/span&gt;</source>
+        <target>تخليط معادن مصنوع من الذهب والفضة بنسبة ${ratio('1:4')}.
+ &lt;span class="q-ask"&gt;ما وزن الفضة، بالغرامات، في 40 غرام من هذا التخليط المعدني؟&lt;/span&gt;</target>
+        <note from="source-location">unit-js/questions.js:162</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-questions-027">
+        <source>כמה גרמים יש ב"מנה" אחת של תערובת הכוללת את שני חלקי היחס יחד (גם זהב וגם כסף)?</source>
+        <target>كم غراماً يوجد في {1}حصة{/1} واحدة من المزيج الذي يتضمن جزأي النسبة معاً (الذهب والفضة معاً)؟</target>
+        <note from="source-location">unit-js/questions.js:172</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-questions-028">
+        <source>נכון!</source>
+        <target>صحيح!</target>
+        <note from="source-location">unit-js/questions.js:173</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-questions-029">
+        <source>
+&lt;p&gt;היחס הוא ${ratio('1:4')}. כלומר, מנה בסיסית אחת של התערובת שוקלת 5 גרמים.&lt;/p&gt;
+&lt;p&gt;נבדוק כמה מנות כאלו נכנסות ב-40 גרם:&lt;/p&gt;
+&lt;p&gt;${eq('40 : 5 = 8')} כלומר, 8 מנות.&lt;/p&gt;
+&lt;p&gt;בכל מנה כזו יש 4 גרמים של כסף,&lt;br&gt;לכן כמות הכסף הכוללת היא: 32 גרם.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;התשובה הנכונה היא 32 גרם.&lt;/strong&gt;&lt;/p&gt;</source>
+        <target>&lt;p&gt;اليحس هو ${ratio('1:4')}. أي أن حصة أساسية واحدة من المخلوط تزن 5 غرامات.&lt;/p&gt;
+&lt;p&gt;لننظر كم حصة من هذه الحصص تدخل في 40 غرام:&lt;/p&gt;
+&lt;p&gt;${eq('40: 5 = 8')} أي 8 حصص.&lt;/p&gt;
+&lt;p&gt;في كل حصة كهذه يوجد 4 غرامات من الفضة،&lt;br&gt;لذلك الكمية الإجمالية من الفضة هي: 32 غرام.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;الإجابة الصحيحة هي 32 غرام.&lt;/strong&gt;&lt;/p&gt;</target>
+        <note from="source-location">unit-js/questions.js:173</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-questions-030">
+        <source>טעית, כל טעות היא צעד קדימה בדרך.</source>
+        <target>أخطأت، لكن كل خطأ هو خطوة إلى الأمام في الطريق.</target>
+        <note from="source-location">unit-js/questions.js:179</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-questions-031">
+        <source>
+&lt;p&gt;נתון ש-5 משבצות שוות ל-150 שקלים. ולכן הערך של משבצת אחת הוא 30 ש"ח.&lt;/p&gt;
+&lt;p&gt;מודל הפסים מראה שההוצאות של רוני מורכבות מ-3 משבצות.&lt;/p&gt;
+${eqc('30 · 3 = 90')}
+&lt;p&gt;&lt;strong&gt;סכום ההוצאות של רוני היה 90 שקלים.&lt;/strong&gt;&lt;/p&gt;</source>
+        <target>&lt;p&gt;معطى أن 5 مربعات تساوي 150 شيكل. وبالتالي قيمة المربع الواحد هي 30 شيكل.&lt;/p&gt;
+&lt;p&gt;نموذج الأشرطة يظهر أن نفقات روني تتكون من 3 مربعات.&lt;/p&gt;
+${eqc('30 · 3 = 90')}
+&lt;p&gt;&lt;strong&gt;كان مجموع نفقات روني 90 شيكل.&lt;/strong&gt;&lt;/p&gt;</target>
+        <note from="source-location">unit-js/questions.js:189</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-questions-032">
+        <source>
+&lt;div class="strip-model" role="img" aria-label="מודל פסים: חיסכון חמש משבצות, הוצאות שלוש משבצות"&gt;
+  &lt;div class="strip-row"&gt;&lt;span class="strip-label"&gt;חיסכון&lt;/span&gt;
+    &lt;span class="strip-bar"&gt;${'&lt;i&gt;&lt;/i&gt;'.repeat(5)}&lt;/span&gt;&lt;/div&gt;
+  &lt;div class="strip-row"&gt;&lt;span class="strip-label"&gt;הוצאות&lt;/span&gt;
+    &lt;span class="strip-bar"&gt;${'&lt;i&gt;&lt;/i&gt;'.repeat(3)}&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;</source>
+        <target>&lt;div class="strip-model" role="img" aria-label="مودل پسيم: ادخار خمس مربعات، نفقات ثلاث مربعات"&gt;
+ &lt;div class="strip-row"&gt;&lt;span class="strip-label"&gt;الادخار&lt;/span&gt;
+ &lt;span class="strip-bar"&gt;${'&lt;i&gt;&lt;/i&gt;'.repeat(5)}&lt;/span&gt;&lt;/div&gt;
+ &lt;div class="strip-row"&gt;&lt;span class="strip-label"&gt;النفقات&lt;/span&gt;
+ &lt;span class="strip-bar"&gt;${'&lt;i&gt;&lt;/i&gt;'.repeat(3)}&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;</target>
+        <note from="source-location">unit-js/questions.js:197</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-questions-033">
+        <source>לפניכם מודל פסים המייצג את התקציב השבועי של רוני,&lt;br&gt;
+      המחולק בין חיסכון להוצאות.&lt;br&gt;
+      כל משבצת מייצגת "מנה" שווה של כסף:
+      ${BUDGET_STRIP}
+      &lt;span class="q-ask"&gt;ידוע שרוני חסכה השבוע 150 שקלים&lt;br&gt;(סכום המיוצג על ידי 5 משבצות החיסכון),&lt;br&gt;מה היה סכום ההוצאות שלה?&lt;/span&gt;</source>
+        <target>امامك نموذج أشرطة يمثل الميزانية الأسبوعية لروني،&lt;br&gt; المقسمة بين الادخار والمصروفات.&lt;br&gt; كل مربع يمثل "حصة" متساوية من المال: ${BUDGET_STRIP} &lt;span class="q-ask"&gt;إذا كان روني قد ادخر هذا الأسبوع 150 شيقل&lt;br&gt;(المبلغ الممثل بـ 5 مربعات الادخار)،&lt;br&gt;فما كان مبلغ مصروفاتها؟&lt;/span&gt;</target>
+        <note from="source-location">unit-js/questions.js:209</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-questions-034">
+        <source>&lt;img class="q-photo" src="assets/img/q5-savings.jpg" alt="נערה מחזיקה קופת חיסכון"&gt;</source>
+        <target>&lt;img class="q-photo" src="assets/img/q5-savings.jpg" alt="فتاة تحمل حصالة"&gt;</target>
+        <note from="source-location">unit-js/questions.js:214</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-questions-035">
+        <source>ש"ח</source>
+        <target>ش.ج</target>
+        <note from="source-location">unit-js/questions.js:215</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-questions-036">
+        <source>סכום ההוצאות</source>
+        <target>مبلغ النفقات</target>
+        <note from="source-location">unit-js/questions.js:215</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-questions-037">
+        <source>השתמשו בנתון של החיסכון כדי לגלות כמה כסף שווה כל משבצת בודדת במודל.</source>
+        <target>استخدموا بيانات المدخرات لاكتشاف قيمة كل مربع واحد في النموذج.</target>
+        <note from="source-location">unit-js/questions.js:218</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-questions-038">
+        <source>נכון!</source>
+        <target>صحيح!</target>
+        <note from="source-location">unit-js/questions.js:219</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-questions-039">
+        <source>טעית, זה סימן שיש פה חשיבה...&lt;br&gt;התשובה הנכונה מוצגת.</source>
+        <target>أخطأت، وهذا يعني أن هناك تفكيراً هنا...&lt;br&gt;يتم عرض الإجابة الصحيحة.</target>
+        <note from="source-location">unit-js/questions.js:219</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-questions-040">
+        <source>היחס בין הצלע הקצרה לצלע הארוכה של מלבן הוא ${ratio('2:5')}.&lt;br&gt;
+      אם היקף המלבן (סכום כל 4 הצלעות) הוא 56 ס"מ,
+      &lt;span class="q-ask"&gt;מהם אורכי הצלעות של המלבן?&lt;/span&gt;</source>
+        <target>النسبة بين الضلع القصير والضلع الطويل للمستطيل هي ${ratio('2:5')}.&lt;br&gt;
+ إذا كان محيط المستطيل (مجموع الأضلاع الأربعة) هو 56 سم،
+ &lt;span class="q-ask"&gt;ما هي أطوال أضلاع المستطيل؟&lt;/span&gt;</target>
+        <note from="source-location">unit-js/questions.js:228</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-questions-041">
+        <source>20 ו-8</source>
+        <target>8 و20</target>
+        <note from="source-location">unit-js/questions.js:232</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-questions-042">
+        <source>40 ו-16</source>
+        <target>40 و 16</target>
+        <note from="source-location">unit-js/questions.js:233</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-questions-043">
+        <source>50 ו-6</source>
+        <target>50 و-6</target>
+        <note from="source-location">unit-js/questions.js:234</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-questions-044">
+        <source>32 ו-24</source>
+        <target>32 و-24</target>
+        <note from="source-location">unit-js/questions.js:235</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-questions-045">
+        <source>זכרו שהיקף מלבן מורכב מפעמיים הצלע הקצרה ופעמיים הצלע הארוכה. לכן עליכם לסכום את כל 4 חלקי היחס.</source>
+        <target>تذكّروا أن محيط المستطيل يتكون من ضعفي الضلع القصير وضعفي الضلع الطويل. لذلك عليكم جمع جميع الأجزاء الأربعة من النسبة.</target>
+        <note from="source-location">unit-js/questions.js:239</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-questions-046">
+        <source>נכון!</source>
+        <target>صحيح!</target>
+        <note from="source-location">unit-js/questions.js:240</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-questions-047">
+        <source>
+&lt;p&gt;סכומן של שתי צלעות סמוכות במלבן הוא 28 ס"מ.&lt;/p&gt;
+&lt;p&gt;אם היחס בין אורכי הצלעות הוא 2 ל-5, סך כל ה"חלקים" הוא 7.&lt;/p&gt;
+&lt;p&gt;נחלק: ${eq('28 : 7 = 4')}&lt;/p&gt;
+&lt;p&gt;ולכן יש לכפול את היחסים בגורם ההרחבה 4.&lt;/p&gt;
+&lt;p&gt;נקבל שאורכה של הצלע הקצרה הוא 8 ס"מ ואורכה של הצלע הארוכה הוא 20 ס"מ.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;התשובה הנכונה היא 20 ו-8.&lt;/strong&gt;&lt;/p&gt;</source>
+        <target>&lt;p&gt;مجموع ضلعين متجاورين في المستطيل هو 28 سم.&lt;/p&gt;
+&lt;p&gt;إذا كان النسبة بين أطوال الأضلاع هي 2 إلى 5، فإن إجمالي "الأجزاء" هو 7.&lt;/p&gt;
+&lt;p&gt;نقسم: ${eq('28: 7 = 4')}&lt;/p&gt;
+&lt;p&gt;ولذلك يجب أن نضرب النسب بعامل التوسع 4.&lt;/p&gt;
+&lt;p&gt;نحصل على أن طول الضلع الأقصر هو 8 سم وطول الضلع الأطول هو 20 سم.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;الإجابة الصحيحة هي 20 و-8.&lt;/strong&gt;&lt;/p&gt;</target>
+        <note from="source-location">unit-js/questions.js:240</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-questions-048">
+        <source>טעית, אל דאגה, הבנה נבנית בהדרגה.</source>
+        <target>أخطأت، لا تقلق، الفهم يُبنى بالتدريج.</target>
+        <note from="source-location">unit-js/questions.js:247</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-questions-049">
+        <source>לניר יש מתכון לעוגה שצריכה 2 ביצים ו-0.6 ליטר חלב.&lt;br&gt;
+      הוא רוצה להכין עוגה גדולה ככל האפשר ויש לו רק 5 ביצים.
+      &lt;span class="q-ask"&gt;כמה ליטר חלב ניר צריך כדי להכין את העוגה הגדולה ביותר שאפשר?&lt;/span&gt;</source>
+        <target>لدى نير وصفة كعكة تتطلب بيضتين و0.6 لتر حليب.&lt;br&gt;
+ يريد أن يحضّر كعكة كبيرة قدر الإمكان، وليس لديه سوى 5 بيضات.
+ &lt;span class="q-ask"&gt;كم لتراً من الحليب يحتاج نير لتحضير أكبر كعكة ممكنة؟&lt;/span&gt;</target>
+        <note from="source-location">unit-js/questions.js:254</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-questions-050">
+        <source>&lt;img class="q-photo" data-no-zoom src="assets/img/q7-nir.jpg" alt="נער עומד ויד על ראשו"&gt;</source>
+        <target>&lt;img class="q-photo" data-no-zoom src="assets/img/q7-nir.jpg" alt="فتى واقف بيده على رأسه"&gt;</target>
+        <note from="source-location">unit-js/questions.js:257</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-questions-051">
+        <source>חשבו כמה חלב דרוש כדי להכין עוגה עם ביצה אחת בלבד, או מצאו פי כמה גדולה כמות הביצים החדשה לעומת הכמות במתכון המקורי.</source>
+        <target>احسبوا كم حليباً مطلوباً لتحضير كعكة ببيضة واحدة فقط، أو اوجدوا بكم مرة تكون كمية البيض الجديدة أكبر من الكمية في الوصفة الأصلية.</target>
+        <note from="source-location">unit-js/questions.js:266</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-questions-052">
+        <source>נכון!</source>
+        <target>صحيح!</target>
+        <note from="source-location">unit-js/questions.js:267</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-questions-053">
+        <source>
+&lt;p&gt;במתכון המקורי היחס הוא 2 ביצים ל-0.6 ליטר חלב. לניר 5 ביצים, כלומר פי 2.5 מהכמות המקורית.&lt;/p&gt;
+&lt;p&gt;נכפול את המספר 0.6 ליטר חלב ב-2.5 ונקבל 1.5 ליטר חלב.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;התשובה הנכונה היא 1.5 ליטר.&lt;/strong&gt;&lt;/p&gt;</source>
+        <target>&lt;p&gt;في الوصفة الأصلية، النسبة هي بيضتان لـ 0.6 لتر من الحليب. لدى نير 5 بيضات، أي 2.5 مرة من الكمية الأصلية.&lt;/p&gt;
+&lt;p&gt;سنضرب العدد 0.6 لتر من الحليب في 2.5 فنحصل على 1.5 لتر من الحليب.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;الإجابة الصحيحة هي 1.5 لتر.&lt;/strong&gt;&lt;/p&gt;</target>
+        <note from="source-location">unit-js/questions.js:267</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-questions-054">
+        <source>טעית, לא נורא, הנה ההסבר:</source>
+        <target>أخطأت، لا بأس، إليك الشرح:</target>
+        <note from="source-location">unit-js/questions.js:271</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-questions-055">
+        <source>קצב דפיקות הלב של אדם הוא 72 דפיקות לב בדקה.
+      &lt;span class="q-ask"&gt;בקצב זה, העריכו כמה דפיקות לב &lt;u&gt;בערך&lt;/u&gt; יהיו לאדם בשעה?&lt;/span&gt;</source>
+        <target>معدّل نبضات قلب الشخص هو 72 نبضة في الدقيقة.
+ &lt;span class="q-ask"&gt;بهذا المعدّل، قدّروا كم نبضة قلب {1}تقريباً{/1} سيكون لدى الشخص في الساعة؟&lt;/span&gt;</target>
+        <note from="source-location">unit-js/questions.js:280</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-questions-056">
+        <source>כמה דקות יש בשעה אחת? הכפילו את המספר בקצב פעימות הלב בדקה.</source>
+        <target>كم عدد الدقائق في الساعة الواحدة؟ اضربوا العدد في معدل نبضات القلب في الدقيقة.</target>
+        <note from="source-location">unit-js/questions.js:290</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-questions-057">
+        <source>נכון!</source>
+        <target>صحيح!</target>
+        <note from="source-location">unit-js/questions.js:291</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-questions-058">
+        <source>
+&lt;p&gt;בשעה אחת יש 60 דקות. אם הלב פועם 72 פעמים בדקה אחת, עלינו להכפיל:&lt;/p&gt;
+${eqc('72 × 60')}
+&lt;p&gt;נשתמש באומדן להעריך את התשובה ("בערך") - נעגל את 72 ל-70: ${eq('70 × 60 = 4,200')}&lt;/p&gt;
+&lt;p&gt;החישוב המדויק הוא 4,320, והאומדן הקרוב ביותר הוא 4,200.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;התשובה הנכונה היא 4,200.&lt;/strong&gt;&lt;/p&gt;</source>
+        <target>&lt;p&gt;في الساعة الواحدة 60 دقيقة. إذا كان القلب ينبض 72 مرة في الدقيقة الواحدة، يجب أن نضرب:&lt;/p&gt;
+${eqc('72 × 60')}
+&lt;p&gt;سنستخدم التقدير لتقريب الإجابة ("تقريباً") - نقرّب 72 إلى 70: ${eq('70 × 60 = 4,200')}&lt;/p&gt;
+&lt;p&gt;الحساب الدقيق هو 4,320، والتقدير الأقرب هو 4,200.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;الإجابة الصحيحة هي 4,200.&lt;/strong&gt;&lt;/p&gt;</target>
+        <note from="source-location">unit-js/questions.js:291</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-questions-059">
+        <source>טעית, אבל כך מתפתחת חשיבה מתמטית.</source>
+        <target>أخطأت، لكن هكذا يتطور التفكير الرياضي.</target>
+        <note from="source-location">unit-js/questions.js:297</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-questions-060">
+        <source>בהכנת דשן לגינה, גנן מערבב 2 ק"ג חנקה (ניטראט), 3 ק"ג פוספט&lt;br&gt;ו-6 ק"ג אשלג (אשלגן).
+      &lt;span class="q-ask"&gt;מהו היחס בין כמות החנקה לבין הכמות הכוללת של הדשן?&lt;/span&gt;</source>
+        <target>في تحضير السماد للحديقة، يخلط البستاني 2 كغ نتروجين (نترات)، 3 كغ فوسفات&lt;br&gt;و6 كغ بوتاسيوم (بوتاسيوم).
+ &lt;span class="q-ask"&gt;ما هي النسبة بين كمية النتروجين والكمية الكلية للسماد؟&lt;/span&gt;</target>
+        <note from="source-location">unit-js/questions.js:303</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-questions-061">
+        <source>&lt;img class="q-photo q-photo--wide" src="assets/img/q9-gardener.jpg" alt="גנן מטפל בשיח הורטנזיה"&gt;</source>
+        <target>&lt;img class="q-photo q-photo--wide" src="assets/img/q9-gardener.jpg" alt="بستاني يعتني بشجيرة الكوبية"&gt;</target>
+        <note from="source-location">unit-js/questions.js:305</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-questions-062">
+        <source>היחס</source>
+        <target>النسبة</target>
+        <note from="source-location">unit-js/questions.js:310</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-questions-063">
+        <source>לפני כתיבת היחס, עליכם לחשב מהי "הכמות הכוללת" של תערובת הדשן.</source>
+        <target>قبل كتابة النسبة، عليكم حساب "الكمية الإجمالية" لخليط السماد.</target>
+        <note from="source-location">unit-js/questions.js:313</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-questions-064">
+        <source>נכון!</source>
+        <target>صحيح!</target>
+        <note from="source-location">unit-js/questions.js:314</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-questions-065">
+        <source>
+&lt;p&gt;נמצא את הכמות הכוללת של הדשן על ידי חיבור כל המרכיבים: 11 ק"ג סך הכל.&lt;/p&gt;
+&lt;p&gt;כמות החנקה היא 2 ק"ג.&lt;/p&gt;
+&lt;p&gt;לכן, היחס בין כמות החנקה לכמות הכוללת הוא 2 ל-11.&lt;/p&gt;
+&lt;p&gt;(אפשר לכתוב זאת כ- ${ratio('2:11')} או כשבר ${frac('2', '11')}).&lt;/p&gt;</source>
+        <target>&lt;p&gt;نجد الكمية الإجمالية للسماد بإضافة جميع المكونات: 11 كغ إجمالاً.&lt;/p&gt;
+&lt;p&gt;كمية النيتروجين هي 2 كغ.&lt;/p&gt;
+&lt;p&gt;لذلك، النسبة بين كمية النيتروجين والكمية الإجمالية هي 2 إلى 11.&lt;/p&gt;
+&lt;p&gt;(يمكن كتابة ذلك كـ ${ratio('2:11')} أو ككسر ${frac('2', '11')}).&lt;/p&gt;</target>
+        <note from="source-location">unit-js/questions.js:314</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-questions-066">
+        <source>טעית, התשובה הנכונה מוצגת.&lt;br&gt;בואו נסביר:</source>
+        <target>آسف، الإجابة الصحيحة معروضة أدناه.&lt;br&gt;دعنا نشرح:</target>
+        <note from="source-location">unit-js/questions.js:319</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-questions-067">
+        <source>בכד יש כדורים אדומים וירוקים ביחס של ${ratio('5:7')}.&lt;br&gt;
+      נתון שיש 35 כדורים ירוקים בכד.
+      &lt;span class="q-ask"&gt;אם נוסיף לכד 10 כדורים אדומים,&lt;br&gt;מה יהיה היחס החדש בין הכדורים האדומים לירוקים?&lt;/span&gt;</source>
+        <target>في الجرة توجد كرات حمراء وخضراء بنسبة ${ratio('5:7')}.&lt;br&gt;
+علماً بأن هناك 35 كرة خضراء في الجرة.
+&lt;span class="q-ask"&gt;إذا أضفنا إلى الجرة 10 كرات حمراء،&lt;br&gt;ما ستكون النسبة الجديدة بين الكرات الحمراء والخضراء؟&lt;/span&gt;</target>
+        <note from="source-location">unit-js/questions.js:327</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-questions-068">
+        <source>עבדו בשלבים: קודם כל מצאו כמה כדורים אדומים היו בכד לפני ההוספה.</source>
+        <target>اعملوا بالتدريج: أولاً، جدوا كم كرة حمراء كانت في الإناء قبل الإضافة.</target>
+        <note from="source-location">unit-js/questions.js:338</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-questions-069">
+        <source>נכון!</source>
+        <target>صحيح!</target>
+        <note from="source-location">unit-js/questions.js:339</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-questions-070">
+        <source>
+&lt;p&gt;היחס המקורי הוא ${ratio('5:7')} (5 לאדומים, 7 לירוקים).&lt;/p&gt;
+&lt;p&gt;7 החלקים הירוקים שווים ל-35 כדורים, לכן כל "חלק" שווה ל-5.&lt;/p&gt;
+&lt;p&gt;נחשב את כמות האדומים בהתחלה:&lt;/p&gt;
+&lt;p&gt;5 חלקים כפול ${eq('5 = 25')} &lt;span class="eq-unit" dir="rtl"&gt;כדורים אדומים&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;כעת נוסיף 10 כדורים אדומים, כלומר יהיו 35 כדורים אדומים.&lt;/p&gt;
+&lt;p&gt;כמות הכדורים הירוקים נשארה 35.&lt;/p&gt;
+&lt;p&gt;היחס החדש הוא 35 אדומים ל-35 ירוקים (${ratio('35:35')}).&lt;/p&gt;
+&lt;p&gt;כששתי הכמויות שוות, היחס מצטמצם ל-${ratio('1:1')}.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;התשובה הנכונה היא ${ratio('1:1')}.&lt;/strong&gt;&lt;/p&gt;</source>
+        <target>&lt;p&gt;النسبة الأصلية هي ${ratio('5:7')} (5 للكرات الحمراء، 7 للكرات الخضراء).&lt;/p&gt;
+&lt;p&gt;7 أجزاء خضراء تساوي 35 كرة، لذلك كل "جزء" يساوي 5.&lt;/p&gt;
+&lt;p&gt;نحسب عدد الكرات الحمراء في البداية:&lt;/p&gt;
+&lt;p&gt;5 أجزاء مضروب ${eq('5 = 25')} &lt;span class="eq-unit" dir="rtl"&gt;كرات حمراء&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;الآن نضيف 10 كرات حمراء، أي ستصبح 35 كرة حمراء.&lt;/p&gt;
+&lt;p&gt;عدد الكرات الخضراء بقي 35.&lt;/p&gt;
+&lt;p&gt;النسبة الجديدة هي 35 حمراء إلى 35 خضراء (${ratio('35:35')}).&lt;/p&gt;
+&lt;p&gt;عندما تكون الكميتان متساويتين، تختصر النسبة إلى ${ratio('1:1')}.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;الإجابة الصحيحة هي ${ratio('1:1')}.&lt;/strong&gt;&lt;/p&gt;</target>
+        <note from="source-location">unit-js/questions.js:339</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-questions-071">
+        <source>טעית, אולי הדרך הנכונה ורק צריך עוד דיוק?</source>
+        <target>أخطأت، هل تحتاج فقط إلى بعض الدقة؟</target>
+        <note from="source-location">unit-js/questions.js:349</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="he" datatype="javascript" original="unit-js/quiz-engine.js" target-language="ar">
+    <body>
+      <trans-unit id="methodica-math-ratio-06-unit-js-quiz-engine-001">
+        <source>&lt;div class="applet-embed"&gt;
+    &lt;button class="applet-zoom-btn" type="button" data-applet-toggle="open"
+      aria-label="הגדלת היישומון למסך מלא"&gt;&lt;svg width="21" height="21" viewBox="0 0 21 21" fill="none" aria-hidden="true"&gt;&lt;circle cx="8.5" cy="8.5" r="6.5" stroke="currentColor" stroke-width="2"/&gt;&lt;line x1="13.5" y1="13.5" x2="19" y2="19" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/&gt;&lt;/svg&gt;&lt;/button&gt;
+    &lt;button class="applet-zoom-btn applet-close-btn" type="button" data-applet-toggle="close"
+      aria-label="סגירת מסך מלא"&gt;&lt;svg width="15" height="15" viewBox="0 0 15 15" fill="none" aria-hidden="true"&gt;&lt;line x1="2" y1="2" x2="13" y2="13" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/&gt;&lt;line x1="13" y1="2" x2="2" y2="13" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/&gt;&lt;/svg&gt;&lt;/button&gt;
+    &lt;iframe src="${src}" title="${title || 'יישומון'}" loading="lazy"&gt;&lt;/iframe&gt;
+  &lt;/div&gt;</source>
+        <target>&lt;div class="applet-embed"&gt;
+ &lt;button class="applet-zoom-btn" type="button" data-applet-toggle="open"
+ aria-label="تكبير الأداة التفاعلية لملء الشاشة"&gt;&lt;svg width="21" height="21" viewBox="0 0 21 21" fill="none" aria-hidden="true"&gt;&lt;circle cx="8.5" cy="8.5" r="6.5" stroke="currentColor" stroke-width="2"/&gt;&lt;line x1="13.5" y1="13.5" x2="19" y2="19" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/&gt;&lt;/svg&gt;&lt;/button&gt;
+ &lt;button class="applet-zoom-btn applet-close-btn" type="button" data-applet-toggle="close"
+ aria-label="إغلاق ملء الشاشة"&gt;&lt;svg width="15" height="15" viewBox="0 0 15 15" fill="none" aria-hidden="true"&gt;&lt;line x1="2" y1="2" x2="13" y2="13" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/&gt;&lt;line x1="13" y1="2" x2="2" y2="13" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/&gt;&lt;/svg&gt;&lt;/button&gt;
+ &lt;iframe src="${src}" title="${title || 'أداة تفاعلية'}" loading="lazy"&gt;&lt;/iframe&gt;
+ &lt;/div&gt;</target>
+        <note from="source-location">unit-js/quiz-engine.js:19</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-quiz-engine-002">
+        <source>שאלה ${i}</source>
+        <target>السؤال ${i}</target>
+        <note from="source-location">unit-js/quiz-engine.js:43</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-quiz-engine-003">
+        <source>סגירה</source>
+        <target>إغلاق</target>
+        <note from="source-location">unit-js/quiz-engine.js:117</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-quiz-engine-004">
+        <source> : ''}
+      &lt;div class="quiz-feedbox" id="q${q.screen}-feedbox"&gt;&lt;/div&gt;
+      &lt;div class="scq-bar"&gt;
+        &lt;button class="quiz-check" id="q${q.screen}-check" disabled onclick="quizCheck(${q.screen})"&gt;צדקתי?&lt;/button&gt;
+        ${!q.hint ? '' : </source>
+        <target>&lt;div class="quiz-feedbox" id="q${q.screen}-feedbox"&gt;&lt;/div&gt;
+&lt;div class="scq-bar"&gt;
+ &lt;button class="quiz-check" id="q${q.screen}-check" disabled onclick="quizCheck(${q.screen})"&gt;هل أنا محق؟&lt;/button&gt;
+ ${!q.hint? '':</target>
+        <note from="source-location">unit-js/quiz-engine.js:124</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-quiz-engine-005">
+        <source>}
+        &lt;button class="quiz-back" onclick="goTo(${typeof q.prev === 'number' ? q.prev : q.screen - 1})"&gt;חזרה&lt;/button&gt;
+      &lt;/div&gt;</source>
+        <target>}
+ &lt;button class="quiz-back" onclick="goTo(${typeof q.prev === 'number'? q.prev: q.screen - 1})"&gt;رجوع&lt;/button&gt;
+ &lt;/div&gt;</target>
+        <note from="source-location">unit-js/quiz-engine.js:129</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-quiz-engine-006">
+        <source>&lt;div class="scq-answers" role="${q.type === 'multi' ? 'group' : 'radiogroup'}" aria-label="אפשרויות תשובה"&gt;
+      ${q.options.map(o =&gt; </source>
+        <target>&lt;div class="scq-answers" role="${q.type === 'multi'? 'group': 'radiogroup'}" aria-label="خيارات الإجابة"&gt;
+ ${q.options.map(o =&gt;</target>
+        <note from="source-location">unit-js/quiz-engine.js:139</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-quiz-engine-007">
+        <source>&lt;select class="dd-select" data-slot="${i}" onchange="quizDropdownChange(${q.screen})"&gt;
+          &lt;option value=""&gt;בחרו&lt;/option&gt;${opts}&lt;/select&gt;</source>
+        <target>&lt;select class="dd-select" data-slot="${i}" onchange="quizDropdownChange(${q.screen})"&gt;
+ &lt;option value=""&gt;اختر&lt;/option&gt;${opts}&lt;/select&gt;</target>
+        <note from="source-location">unit-js/quiz-engine.js:162</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-quiz-engine-008">
+        <source>
+      &lt;div class="stmt-row${q.progressive &amp;&amp; i &gt; 0 ? ' is-hidden' : ''}" data-row="${i}"&gt;
+        &lt;span class="stmt-text"&gt;${s.text}&lt;/span&gt;
+        &lt;span class="stmt-pills"&gt;
+          &lt;button type="button" class="stmt-pill" data-val="true" onclick="quizStatementPick(${q.screen}, ${i}, this)"&gt;נכון&lt;/button&gt;
+          &lt;button type="button" class="stmt-pill" data-val="false" onclick="quizStatementPick(${q.screen}, ${i}, this)"&gt;לא נכון&lt;/button&gt;
+        &lt;/span&gt;
+      &lt;/div&gt;</source>
+        <target>```
+&lt;div class="stmt-row${q.progressive &amp;&amp; i &gt; 0? ' is-hidden': ''}" data-row="${i}"&gt;
+ &lt;span class="stmt-text"&gt;${s.text}&lt;/span&gt;
+ &lt;span class="stmt-pills"&gt;
+ &lt;button type="button" class="stmt-pill" data-val="true" onclick="quizStatementPick(${q.screen}, ${i}, this)"&gt;صحيح&lt;/button&gt;
+ &lt;button type="button" class="stmt-pill" data-val="false" onclick="quizStatementPick(${q.screen}, ${i}, this)"&gt;خطأ&lt;/button&gt;
+ &lt;/span&gt;
+&lt;/div&gt;
+```</target>
+        <note from="source-location">unit-js/quiz-engine.js:171</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-quiz-engine-009">
+        <source>&lt;div class="dual-select-sentence"&gt;
+      ${q.sentence.before}
+      &lt;select class="year-select" data-slot="0" onchange="quizDualChange(${q.screen})"&gt;&lt;option value=""&gt;בחרו שנה&lt;/option&gt;${opts}&lt;/select&gt;
+      ${q.sentence.middle}
+      &lt;select class="year-select" data-slot="1" onchange="quizDualChange(${q.screen})"&gt;&lt;option value=""&gt;בחרו שנה&lt;/option&gt;${opts}&lt;/select&gt;
+      ${q.sentence.after}
+    &lt;/div&gt;</source>
+        <target>&lt;div class="dual-select-sentence"&gt;
+ ${q.sentence.before}
+ &lt;select class="year-select" data-slot="0" onchange="quizDualChange(${q.screen})"&gt;&lt;option value=""&gt;اختر سنة&lt;/option&gt;${opts}&lt;/select&gt;
+ ${q.sentence.middle}
+ &lt;select class="year-select" data-slot="1" onchange="quizDualChange(${q.screen})"&gt;&lt;option value=""&gt;اختر سنة&lt;/option&gt;${opts}&lt;/select&gt;
+ ${q.sentence.after}
+ &lt;/div&gt;</target>
+        <note from="source-location">unit-js/quiz-engine.js:182</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-quiz-engine-010">
+        <source>&lt;option value=""&gt;בחרו&lt;/option&gt;${opts}&lt;/select&gt;</source>
+        <target>&lt;option value=""&gt;اختر&lt;/option&gt;${opts}&lt;/select&gt;</target>
+        <note from="source-location">unit-js/quiz-engine.js:214</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-quiz-engine-011">
+        <source>כמעט! חלק מהתשובות נכונות</source>
+        <target>تقريباً! بعض الإجابات صحيحة</target>
+        <note from="source-location">unit-js/quiz-engine.js:415</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-quiz-engine-012">
+        <source>הגדלת התמונה</source>
+        <target>تكبير الصورة</target>
+        <note from="source-location">unit-js/quiz-engine.js:566</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-quiz-engine-013">
+        <source>&lt;button type="button" class="applet-close-btn" aria-label="סגירה" onclick="quizImageZoomClose()"&gt;</source>
+        <target>&lt;button type="button" class="applet-close-btn" aria-label="إغلاق" onclick="quizImageZoomClose()"&gt;</target>
+        <note from="source-location">unit-js/quiz-engine.js:577</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-quiz-engine-014">
+        <source>התשובה שלי</source>
+        <target>إجابتي</target>
+        <note from="source-location">unit-js/quiz-engine.js:604</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-quiz-engine-015">
+        <source>התשובה הנכונה</source>
+        <target>الإجابة الصحيحة</target>
+        <note from="source-location">unit-js/quiz-engine.js:616</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-quiz-engine-016">
+        <source>התשובה שלי</source>
+        <target>إجابتي</target>
+        <note from="source-location">unit-js/quiz-engine.js:616</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+      <trans-unit id="methodica-math-ratio-06-unit-js-quiz-engine-017">
+        <source>שנמשיך?</source>
+        <target>متابعة</target>
+        <note from="source-location">unit-js/quiz-engine.js:657</note>
+        <note from="kind">js-string</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

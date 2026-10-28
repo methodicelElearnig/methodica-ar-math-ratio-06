@@ -1,0 +1,30 @@
+# Line endings, pinned so every clone agrees (copied from methodica-math-ratio-01;
+# ADDING-REPORTING-AND-RESUME.md §11.1).
+#
+# Deployment packages are copied from the WORKING TREE, and this machine runs
+# core.autocrlf=true: without eol=lf a package would ship CRLF files that no longer
+# match their own commit byte-for-byte (verify-package.ps1 then reports drift).
+#
+# State when this was added (git ls-files --eol, 2026-09-28): every shipped text file
+# is already LF in the index. The only CRLF blobs are ten spec/assets/slide-0NN/
+# image10.svg files — generated source material, never shipped — left as they are.
+
+* text=auto eol=lf
+
+# Explicit binary, so auto-detection is never the only thing between a media file and
+# corruption.
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.webp  binary
+*.mp4   binary
+*.woff  binary
+*.woff2 binary
+*.ttf   binary
+*.pdf   binary
+*.pptx  binary
+*.docx  binary
+
+# SVG is XML — text, not an image format, as far as git is concerned.
+*.svg   text eol=lf
