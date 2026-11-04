@@ -395,7 +395,7 @@ html, body {
   place-items: center;
 }#quiz-hint-overlay.hidden { display: none; }
 .hint-popup {
-  width: 560px;
+  width: 640px;
   border-radius: 48px;
   background: var(--subject-500);
   color: #fff;

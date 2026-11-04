@@ -254,7 +254,7 @@ function paintChoice(n, q, st) {
     _paintDone(n, q, st);
     return;
   }
-  check.textContent = 'هل أنا محق؟';
+  check.textContent = 'هل إجابتي صحيحة؟';
   if (st.attempts > 0) {
     var hb = _hintBtn(n);
     if (hb) hb.style.visibility = 'visible';
@@ -287,7 +287,7 @@ function paintValue(n, q, st) {
     _paintDone(n, q, st);
     return;
   }
-  check.textContent = 'هل أنا محق؟';
+  check.textContent = 'هل إجابتي صحيحة؟';
   var ready = slots.length > 0 && !vals.some(function (v) { return !v; }) && vals.length === slots.length;
   if (st.attempts > 0) {
     var hb = _hintBtn(n);
