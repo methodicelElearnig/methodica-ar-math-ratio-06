@@ -13,8 +13,9 @@
   "Same change as the Hebrew twin" (BOOT-AND-RESUME-HARDENING §7.5, §2.9).
 - **Learner-visible text is the translator's Arabic** (`methodica-math-ratio-06-ar.xlf`). Comments and
   docs stay Hebrew/English and are not translated. No Hebrew may reach the page (MOE runbook: critical).
-- **Metadata:** `metadata/*.json` are placeholders (the Hebrew twin's texts, re-pointed ids) until
-  Vadim supplies the real Arabic metadata. Nothing sent to Kata. In Kata the Arabic components live
+- **Metadata:** `metadata/*.json` is Vadim's Arabic metadata (dated 2026-11-11; Arabic titles, question
+  texts and answers, `languages: ["Arabic"]`; `informationToBot` stays Hebrew, as in ar-ratio-01/04/05).
+  It went in with `e588899`. Nothing sent to Kata. In Kata the Arabic components live
   **inside the Hebrew unit** (parent-unit mode — port it from ar-ratio-04 `3c028d7` before sending).
   **Do not publish until MOE approves the Arabic version in writing** (`docs-and-tools/SEND-METADATA.md`).
 - **Push, PR, merge, package, CDN upload, Kata send: each only with Vadim's explicit approval.**
