@@ -57,7 +57,8 @@ async function main() {
     const links = [...html.matchAll(/<link rel="stylesheet" href="([^"]+)"/g)].map(m => m[1]);
     ok('tags', c + ': every stylesheet carries ?v=', links.every(s => /\?v=\d+$/.test(s)), links.join(', '));
     tagSets[c] = srcs.concat(links);
-    ok('tags', c + ': no CDN library tag in the markup (the loader picks it)', !/xapi-720-/.test(html));
+    /* 2026-11-14 (fix R, C2): the head now preloads the loader's library; no <script> may name it */
+    ok('tags', c + ': no CDN library script tag in the markup (the loader picks it)', !/<script[^>]*xapi-720-/.test(html));
     ok('cover', c + ': #boot-cover in the markup, inline-styled, a sibling of #stage', /<div id="boot-cover" style="position:fixed;inset:0;z-index:9999;[^"]*"><\/div>\s*<script>[\s\S]*?setTimeout\(tick, 800\)[\s\S]*?<\/script>\s*<div id="stage">/.test(html));
   }
   eq('tags', '?v= identical across both components (shared files and script.js)', tagSets['01'].filter(s => s !== 'script.js'), tagSets['02'].filter(s => s !== 'script.js'));
@@ -65,9 +66,9 @@ async function main() {
   const loader = rd('unit-js/50-loader.js');
   const libLine = (loader.match(/var LIB720 = CDN \+ \(RESUME_ENABLED \? '(xapi-720-(\w)\.js)' : '(xapi-720-(\w)\.js)'\);/) || []);
   const gate = (loader.match(/window\.XAPI_USING_G = \/xapi-720-\[(\w+)\]\\\.js\/\.test\(LIB720\);/) || [])[1] || '';
-  eq('lib', 'resume on → the loader names -k', libLine[1], 'xapi-720-k.js');
-  ok('lib', 'the -k letter is inside the XAPI_USING_G gate', gate.includes('k') && gate.includes(libLine[4] || '?'), gate);
-  ok('lib', 'the stub filename carries a gated letter', fs.existsSync(path.join(__dirname, 'xapi-720-k.js')));
+  eq('lib', 'resume on → the loader names -l (2026-11-14, fix R §2.10)', libLine[1], 'xapi-720-l.js');
+  ok('lib', 'the -l letter is inside the XAPI_USING_G gate', gate.includes('l') && gate.includes(libLine[4] || '?'), gate);
+  ok('lib', 'the stub filename carries a gated letter', fs.existsSync(path.join(__dirname, 'xapi-720-l.js')));
   if (process.env.LOMDA_BASE) ok('pkg', 'the package carries no _test/ (the stub never ships)', !fs.existsSync(path.join(BASE, '_test')));
 
   /* no identifier declared twice at top level across the loaded files (script.js per part) */
