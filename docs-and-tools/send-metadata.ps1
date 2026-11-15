@@ -84,11 +84,11 @@ $LogFile = Join-Path $PSScriptRoot 'send-metadata.log'
 # one, for every component of this unit.
 #
 # Take this from the unit's own DEPLOY.md deploy target. No trailing slash.
-# methodica-math-ratio-06 — confirmed by the content owner 28.09.26.
-$ContentBaseUrl = 'https://lomdot.education.gov.il/metodica/720/math/ratio/06'
+# methodica-ar-math-ratio-06 — the Arabic CDN path (720/ar/…, as ar-ratio-01/04); NOT yet confirmed by the content owner.
+$ContentBaseUrl = 'https://lomdot.education.gov.il/metodica/720/ar/math/ratio/06'
 # Title language key: wraps a string title into the API object, e.g.
 #   "מדידת מסה" -> { "Hebrew": "מדידת מסה" }. Change only for non-Hebrew content.
-$TitleLangKey = 'Hebrew'
+$TitleLangKey = 'Arabic'
 # NOTE: there is no $UnitManufacture any more. 720 v2.5 renamed the field to
 # `manufacturer` and moved it to the unit, and KATA does not accept it on any endpoint —
 # the owning provider is derived from the API key. See New-UnitBody.

@@ -21,6 +21,13 @@ NODE_PATH=<that folder>/node_modules node _test/retry-gate.js
 NODE_PATH=<puppeteer-core folder>/node_modules node _test/layout.js http://127.0.0.1:8796/
 ```
 
+State on 2026-11-15 (Arabic twin, after the identity rename and the 03.11 port): verify-report 417,
+statement-flow 92, retry-gate 175, write-guard 44 (jsdom) + layout 66 = 794 checks, all green. The label
+assertions read the Arabic screens ("هل نتابع؟", "الإجابة الصحيحة", the screen-3 gate sentence, the
+issue-report option text). `write-guard.js` and the `xapi-720-l.js` stub came with the Hebrew twin's
+dc60a45; write-guard fails 26 of 44 against the pre-port tree. jsdom: `C:\lomda-test\node_modules`;
+puppeteer-core: `%LOCALAPPDATA%\Temp\lomda-test\node_modules`.
+
 State on 2026-10-07: 417 + 92 + 175 (jsdom) + 66 (layout) = 750 checks, all green; 30 of the layout
 checks fail on the pre-fix CSS.
 
@@ -34,7 +41,7 @@ fails its target group.
 ## In a browser
 
 ```
-http://localhost:<port>/methodica-math-ratio-06/methodica-math-ratio-06-02/index.html?xapiLib=../_test/xapi-720-k.js
+http://localhost:<port>/methodica-ar-math-ratio-06/methodica-ar-math-ratio-06-02/index.html?xapiLib=../_test/xapi-720-k.js
 ```
 
 Add `&resetState` for a clean document. Serve from a **subpath** (the folder above the repo), so a

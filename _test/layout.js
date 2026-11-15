@@ -26,7 +26,7 @@ const SIZES = [[1024, 640], [1366, 640], [1280, 600], [800, 600], [1280, 720], [
     const page = await browser.newPage();
     const errs = [];
     page.on('pageerror', e => errs.push(e.message));
-    await page.goto(BASE + 'methodica-math-ratio-06-' + c + '/index.html', { waitUntil: 'networkidle0' });
+    await page.goto(BASE + 'methodica-ar-math-ratio-06-' + c + '/index.html', { waitUntil: 'networkidle0' });
     for (const [w, h] of SIZES) {
       await page.setViewport({ width: w, height: h });
       await new Promise(r => setTimeout(r, 250));

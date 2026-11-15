@@ -1,4 +1,4 @@
-/* ═══════════════════ structural verification — methodica-math-ratio-06 ═══════════════════
+/* ═══════════════════ structural verification — methodica-ar-math-ratio-06 ═══════════════════
    NOT DEPLOYED. Dev tooling only.
 
    Asserts the CONTRACTS of the reporting / issue-reporting / resume integration — the silent
@@ -57,7 +57,8 @@ async function main() {
     const links = [...html.matchAll(/<link rel="stylesheet" href="([^"]+)"/g)].map(m => m[1]);
     ok('tags', c + ': every stylesheet carries ?v=', links.every(s => /\?v=\d+$/.test(s)), links.join(', '));
     tagSets[c] = srcs.concat(links);
-    ok('tags', c + ': no CDN library tag in the markup (the loader picks it)', !/xapi-720-/.test(html));
+    /* 2026-11-14 (fix R, C2): the head now preloads the loader's library; no <script> may name it */
+    ok('tags', c + ': no CDN library script tag in the markup (the loader picks it)', !/<script[^>]*xapi-720-/.test(html));
     ok('cover', c + ': #boot-cover in the markup, inline-styled, a sibling of #stage', /<div id="boot-cover" style="position:fixed;inset:0;z-index:9999;[^"]*"><\/div>\s*<script>[\s\S]*?setTimeout\(tick, 800\)[\s\S]*?<\/script>\s*<div id="stage">/.test(html));
   }
   eq('tags', '?v= identical across both components (shared files and script.js)', tagSets['01'].filter(s => s !== 'script.js'), tagSets['02'].filter(s => s !== 'script.js'));
@@ -65,9 +66,9 @@ async function main() {
   const loader = rd('unit-js/50-loader.js');
   const libLine = (loader.match(/var LIB720 = CDN \+ \(RESUME_ENABLED \? '(xapi-720-(\w)\.js)' : '(xapi-720-(\w)\.js)'\);/) || []);
   const gate = (loader.match(/window\.XAPI_USING_G = \/xapi-720-\[(\w+)\]\\\.js\/\.test\(LIB720\);/) || [])[1] || '';
-  eq('lib', 'resume on → the loader names -k', libLine[1], 'xapi-720-k.js');
-  ok('lib', 'the -k letter is inside the XAPI_USING_G gate', gate.includes('k') && gate.includes(libLine[4] || '?'), gate);
-  ok('lib', 'the stub filename carries a gated letter', fs.existsSync(path.join(__dirname, 'xapi-720-k.js')));
+  eq('lib', 'resume on → the loader names -l (2026-11-14, fix R §2.10)', libLine[1], 'xapi-720-l.js');
+  ok('lib', 'the -l letter is inside the XAPI_USING_G gate', gate.includes('l') && gate.includes(libLine[4] || '?'), gate);
+  ok('lib', 'the stub filename carries a gated letter', fs.existsSync(path.join(__dirname, 'xapi-720-l.js')));
   if (process.env.LOMDA_BASE) ok('pkg', 'the package carries no _test/ (the stub never ships)', !fs.existsSync(path.join(BASE, '_test')));
 
   /* no identifier declared twice at top level across the loaded files (script.js per part) */
@@ -95,7 +96,7 @@ async function main() {
     eq('pkg', 'the package root holds only component folders and shared folders — no root index.html',
       fs.readdirSync(BASE).filter(n => fs.statSync(path.join(BASE, n)).isFile() && n !== 'DEPLOY.md'), []);
   } else {
-    ok('root', 'root index.html (local use) redirects to component 01 index.html carrying location.search', /location\.replace\('\.\/methodica-math-ratio-06-01\/index\.html' \+ window\.location\.search\)/.test(rd('index.html')));
+    ok('root', 'root index.html (local use) redirects to component 01 index.html carrying location.search', /location\.replace\('\.\/methodica-ar-math-ratio-06-01\/index\.html' \+ window\.location\.search\)/.test(rd('index.html')));
   }
   /* The MOE CDN answers a folder URL with 200 + 0 bytes (seen live 28.09.26): every navigation
      target must name its file. The local static server resolves folders, which hid this. */
@@ -175,8 +176,8 @@ async function main() {
   ok('nav', 'hops (location.replace) only in goToNextPart/goToPrevPart', (eng.match(/location\.replace\(/g) || []).length === 2);
   ok('report', 'report-modal.js has no leftover of another unit', !/percent-08/.test(rd('unit-js/report-modal.js')));
   ok('report', 'report-modal.js binds the flag by delegation', /document\.addEventListener\('click', function \(e\) \{\s*if \(e\.target && e\.target\.closest && e\.target\.closest\('\.flag-btn'\)\)/.test(rd('unit-js/report-modal.js')));
-  eq('keys', 'UI_CHARACTER_KEY is namespaced to this unit', (rd('unit-js/40-resume.js').match(/var UI_CHARACTER_KEY = '([^']+)'/) || [])[1], 'methodica_math_ratio_06_selectedCharacter');
-  eq('keys', 'NAV_EDGE_KEY carries this unit', (rd('unit-js/40-resume.js').match(/var NAV_EDGE_KEY = '([^']+)'/) || [])[1], 'lomda_nav_edges::methodica-math-ratio-06');
+  eq('keys', 'UI_CHARACTER_KEY is namespaced to this unit', (rd('unit-js/40-resume.js').match(/var UI_CHARACTER_KEY = '([^']+)'/) || [])[1], 'methodica_ar_math_ratio_06_selectedCharacter');
+  eq('keys', 'NAV_EDGE_KEY carries this unit', (rd('unit-js/40-resume.js').match(/var NAV_EDGE_KEY = '([^']+)'/) || [])[1], 'lomda_nav_edges::methodica-ar-math-ratio-06');
   ok('keys', 'RESULT_KEYS = the two verdict keys partExit writes', /var RESULT_KEYS\s+= \['ratio06_c01_result', 'ratio06_c02_result'\];/.test(rd('unit-js/40-resume.js')));
   ok('keys', 'no donor constants left (keys, slugs)', !allCode.map(rd).concat([fs.readFileSync(path.join(__dirname, 'xapi-720-k.js'), 'utf8')]).some(s => /lomda_nav_edges::methodica-math-ratio-01|ratio01_c|methodica_math_ratio_01|'methodica-math-ratio-01/.test(s)));
 
@@ -201,7 +202,7 @@ async function main() {
         const r = await boot(c, { lib: true });
         r.finishBoot();
         r.exec('applyExecutionState(' + payload + ', ' + n + ');');
-        ok(t, 'screen ' + n + ': restored with "שנמשיך?"', r.val('document.getElementById("q' + n + '-check").textContent') === 'שנמשיך?');
+        ok(t, 'screen ' + n + ': restored with "هل نتابع؟"', r.val('document.getElementById("q' + n + '-check").textContent') === 'هل نتابع؟');
         ok(t, 'screen ' + n + ': feedback shown (' + (verdict ? 'correct' : 'wrong') + ')', r.val('document.getElementById("q' + n + '-feedbox").classList.contains("' + (verdict ? 'is-correct' : 'is-wrong') + '")'));
         if (type === 'single') {
           ok(t, 'screen ' + n + ': the right option carries .correct', r.val('!!document.querySelector("#q' + n + ' .scq-opt.correct")'));
@@ -249,16 +250,17 @@ async function main() {
     const r = await boot('02', { lib: true });
     r.finishBoot();
     r.exec('applyExecutionState(' + payload + ', 5);');
-    eq('toggle', 'restored: still the learner own answer, toggle labelled for the other', [r.val('quizSlots(5)[0].value'), r.val('document.querySelector("#q5-feedbox .fb-answer-toggle").textContent')], ['2', 'התשובה הנכונה']);
+    eq('toggle', 'restored: still the learner own answer, toggle labelled for the other', [r.val('quizSlots(5)[0].value'), r.val('document.querySelector("#q5-feedbox .fb-answer-toggle").textContent')], ['2', 'الإجابة الصحيحة']);
   }
 
   /* the gate agrees in all four places: metadata (source of truth), screen 3, PASS_MARK, the result */
   {
     const info = readMeta('02').subContent[0].informationToBot;
-    const m = /(\d+) מתוך 10/.exec(info);
+    /* Arabic twin: the metadata placeholder is still Hebrew; accept the Arabic wording too (من 10) */
+    const m = /(\d+) (?:מתוך|من) 10/.exec(info);
     ok('gate', 'metadata states the gate', !!m, info.slice(0, 60));
     const gateN = m ? Number(m[1]) : -1;
-    ok('gate', 'screen 3 promises the same number', rd(PART_DIR('02') + '/index.html').includes('צריך לענות נכון על ' + gateN + ' שאלות לפחות'));
+    ok('gate', 'screen 3 promises the same number', rd(PART_DIR('02') + '/index.html').includes('يجب الإجابة بشكل صحيح على ' + gateN + ' أسئلة على الأقل'));
     const b = await boot('02', { meta: false });
     eq('gate', 'PASS_MARK equals it', b.val('PASS_MARK'), gateN);
   }
@@ -270,14 +272,14 @@ async function main() {
     b.exec('goTo(4);' + enterJs(4, KEY[4]) + clickCheck(4));
     const doc = b.state();
     eq('shape', 'document keys (v6)', Object.keys(doc).sort(), ['component', 'done', 'doneItems', 'hints', 'payload', 'picks', 'results', 'ui', 'v']);
-    eq('shape', 'v = 6, component = this part', [doc.v, doc.component], [6, 'methodica-math-ratio-06-02']);
+    eq('shape', 'v = 6, component = this part', [doc.v, doc.component], [6, 'methodica-ar-math-ratio-06-02']);
     eq('shape', 'payload keys', Object.keys(doc.payload).sort(), ['currentScreen', 'q', 'qResults']);
     eq('shape', 'payload holds only this part\'s questions', Object.keys(doc.payload.q).map(Number).sort((x, y) => x - y), [4, 5, 6, 7, 8, 9, 10, 11, 12, 13]);
     eq('shape', 'the answer was saved synchronously at the commit', doc.payload.q[4].done, true);
     /* another part's document is discarded */
-    b.exec('_unitState = null; window.__setState(Object.assign({}, ' + JSON.stringify(doc) + ', { component: "methodica-math-ratio-06-01" }));');
+    b.exec('_unitState = null; window.__setState(Object.assign({}, ' + JSON.stringify(doc) + ', { component: "methodica-ar-math-ratio-06-01" }));');
     const d2 = b.val('JSON.stringify(readUnitState())');
-    ok('shape', 'a document naming another component is discarded', JSON.parse(d2).payload === null && b.warns.some(w => /belongs to "methodica-math-ratio-06-01"/.test(w)));
+    ok('shape', 'a document naming another component is discarded', JSON.parse(d2).payload === null && b.warns.some(w => /belongs to "methodica-ar-math-ratio-06-01"/.test(w)));
   }
 
   /* ══════════ 6. Issue reporting ══════════ */
@@ -300,17 +302,17 @@ async function main() {
     const map = JSON.parse(b.val('JSON.stringify(SCREEN_TO_SUBCONTENT)'));
     for (const n of Object.keys(map).map(Number)) {
       b.w.__fetches.length = 0;
-      b.exec('goTo(' + n + '); openReportModal(); var s = document.getElementById("report-type"); s.value = "technical"; document.getElementById("report-text").value = "בדיקת QA — לא לטפל"; submitReport();');
+      b.exec('goTo(' + n + '); openReportModal(); var s = document.getElementById("report-type"); s.value = "technical"; document.getElementById("report-text").value = "فحص QA — لا تعالجوا"; submitReport();');
       const f = b.w.__fetches[0];
       ok(t, 'screen ' + n + ': exactly one POST to the shared Google Form', b.w.__fetches.length === 1 && /^https:\/\/docs\.google\.com\/forms\/d\/e\/[\w-]+\/formResponse$/.test(f.url) && f.init.mode === 'no-cors' && f.init.body instanceof b.w.URLSearchParams);
       if (!f) continue;
       const body = f.init.body;
-      eq(t, 'screen ' + n + ': unit slug', body.get('entry.1933069481'), 'methodica-math-ratio-06');
+      eq(t, 'screen ' + n + ': unit slug', body.get('entry.1933069481'), 'methodica-ar-math-ratio-06');
       eq(t, 'screen ' + n + ': component slug', body.get('entry.2070680092'), PART_DIR(c));
       eq(t, 'screen ' + n + ': item', body.get('entry.1555704258'), map[n] ? PART_DIR(c) + '-' + map[n][0] : '');
       eq(t, 'screen ' + n + ': page', body.get('entry.1671046914'), map[n] ? String(map[n][1]) : String(n));
-      eq(t, 'screen ' + n + ': the Hebrew label, not the key', body.get('entry.1179822443'), 'תקלה טכנית או שמשהו לא עובד');
-      eq(t, 'screen ' + n + ': free text verbatim', body.get('entry.806447525'), 'בדיקת QA — לא לטפל');
+      eq(t, 'screen ' + n + ': the Arabic label, not the key', body.get('entry.1179822443'), 'عطل تقني أو أن شيئاً ما لا يعمل');
+      eq(t, 'screen ' + n + ': free text verbatim', body.get('entry.806447525'), 'فحص QA — لا تعالجوا');
       ok(t, 'screen ' + n + ': year', /^\d{4}$/.test(body.get('entry.301404029_year')));
       b.exec('forceCloseReportModal();');
     }

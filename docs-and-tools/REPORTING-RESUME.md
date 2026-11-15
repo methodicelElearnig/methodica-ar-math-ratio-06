@@ -1,8 +1,13 @@
-# methodica-math-ratio-06 — xAPI reporting, issue reporting, resume
+# methodica-ar-math-ratio-06 — xAPI reporting, issue reporting, resume
 
 Unit record. The family guide is
 `2026/Documentation/reporting-and-resume/ADDING-REPORTING-AND-RESUME.md` (current to 2026-09-24);
 this file records only what is specific to this unit and why. Added 2026-09-28.
+
+> **Arabic twin (2026-11-15).** This repo is the Arabic version of `methodica-math-ratio-06`. It has its own
+> identity: `XAPI_UNIT_ID = 'methodica-ar-math-ratio-06'`, `XAPI_ID_PREFIX = …/metodica/720/ar/math/ratio/06/`, the
+> component folders `methodica-ar-math-ratio-06-0N`, and namespaced character / nav-edge keys. History below dated
+> before 2026-10-28 is the Hebrew twin's.
 
 ## 1. Shape of the integration
 
@@ -32,8 +37,8 @@ runs synchronously at the end of `<body>`.
 
 | | |
 |---|---|
-| `XAPI_ID_PREFIX` | `https://lomdot.education.gov.il/metodica/720active/math/ratio/06/` |
-| `XAPI_UNIT_ID` | `methodica-math-ratio-06` — **bare slug**, = `metadata/methodica-math-ratio-06_unit.json` `id` (MOE v2.5 §2.7) |
+| `XAPI_ID_PREFIX` | `https://lomdot.education.gov.il/metodica/720/ar/math/ratio/06/` |
+| `XAPI_UNIT_ID` | `methodica-ar-math-ratio-06` — **bare slug**, = `metadata/methodica-ar-math-ratio-06_unit.json` `id` (MOE v2.5 §2.7) |
 | component ids | `<prefix><slug>/` — IRIs with trailing `/`, = `METADATA.id` |
 | 01 | screens 0–2 → item `001` pages 1–3 (the whole hook is one item, `q1` on screen 1) |
 | 02 | screen 3 (transition) → `null`; screens 4–13 → items `001`–`010`, one `q1` each |
@@ -82,10 +87,10 @@ No character state: the unit has one fixed companion, so `ui.character` stays `n
   `index.html`, `script.js`, `styles.css`, `assets/`. `spec/`, `docs/`, `tools/`, `media/`,
   `_test/`, `docs-and-tools/`, `index_dev.html`, `*.md` never ship.
 - `send-metadata.ps1` / `retrieve-metadata.ps1` (+ `SEND-METADATA.md`) — from ratio-01.
-  `$ContentBaseUrl = …/720/math/ratio/06` — confirmed 28.09. The API key goes in `docs-and-tools/kata-api-key.txt`
+  `$ContentBaseUrl = …/720/ar/math/ratio/06` (Arabic path, not yet confirmed; the Hebrew twin's …/720/math/ratio/06 was confirmed 28.09). The API key goes in `docs-and-tools/kata-api-key.txt`
   (git-ignored) or `KATA_API_KEY`.
 - **Nothing at the package root (rule, 28.09.26).** The platforms launch the component links only
-  (`hostedContentRef` = `…/methodica-math-ratio-06-0N/index.html`), so the repo's root `index.html` is
+  (`hostedContentRef` = `…/methodica-ar-math-ratio-06-0N/index.html`), so the repo's root `index.html` is
   for local use and never ships; `verify-report.js <package>` fails if a package holds a root file.
 - `reset-state.html` — QA: inspect/delete one registration's document. ratio-01's
   `save-restore-state.html` was **not** taken: it still validates the pre-v6 shared document.
@@ -94,7 +99,7 @@ No character state: the unit has one fixed companion, so `ui.character` stays `n
 
 1. ~~Push the metadata to Kata~~ — **done 28.09.26**: dry run (log archived as
    `send-metadata.2026-09-28-dryrun.log`), then live `created=14 updated=0 failed=0` (all 201).
-   Verified by GET, not by the 2xx: unit `methodica-math-ratio-06` (bare key, both target sectors,
+   Verified by GET, not by the 2xx: unit `methodica-math-ratio-06` (this is the HEBREW twin's history, inherited by this fork) (bare key, both target sectors,
    objective `…RATIO.SOLVE-MISSING`), components 01/02 with 1 and 10 items / questions,
    `learningUnitId` = the bare slug, `cognitiveLevels` stored, `hostedContentRef` under `/720/`,
    no `publishBlockers` or `warnings`. Both components are **`draft`** (the sender creates drafts;

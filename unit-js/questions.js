@@ -1,5 +1,5 @@
 /* =====================================================================
-   methodica-math-ratio-06 — question configs (יעד 1.6, יחס).
+   methodica-ar-math-ratio-06 — question configs (יעד 1.6, יחס).
 
    Copy is VERBATIM from the deck; bold follows the source runs; option order
    is the RENDERED order (the scanner cannot resolve the group transforms and
