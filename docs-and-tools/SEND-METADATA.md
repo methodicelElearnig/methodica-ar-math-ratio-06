@@ -11,7 +11,15 @@
 >   'methodica-math-ratio-06'`; the Hebrew unit is read-only (one GET, never POST/PATCH) and
 >   `*_unit.json` is not sent. `-ParentUnitKey ''` restores the own-unit upsert. Dry run 2026-11-15:
 >   parent GET, 2 components POSTed under `content-units/methodica-math-ratio-06`, 11 items,
->   `created=13 updated=0 failed=0`. Not sent.
+>   `created=13 updated=0 failed=0`.
+>
+> **SENT 2026-11-15** (live, Vadim's approval): read-only checks first — parent `methodica-math-ratio-06` 200 with
+> its 2 published Hebrew components (launched from `…/720/math/ratio/06/`), both Arabic components 404. Send:
+> `created=13 updated=0 failed=0` (all 201). Read back from the parent's tree: the Hebrew unit is unchanged
+> (`updatedAt` 2026-09-28, title `Hebrew` only, 2 Hebrew components still `published`); the 2 Arabic components
+> are **`draft`**, `languages` Arabic, `hostedContentRef` `…/720/ar/math/ratio/06/methodica-ar-math-ratio-06-0N/index.html`,
+> 1 + 10 items, 0 warnings, 0 publish blockers; every item and question equal to `metadata/` (titles,
+> informationToBot, types, question texts, answers, correct answers). **Not published.**
 
 # Sending metadata to the Kata catalog
 
