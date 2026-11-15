@@ -1,6 +1,6 @@
 'use strict';
 /* ═══════════════════════════════════════════════════════════════════
-   methodica-math-ratio-06 — platform glue: xAPI reporting + resume on the 720-core engine.
+   methodica-ar-math-ratio-06 — platform glue: xAPI reporting + resume on the 720-core engine.
 
    The platform files (10-identity / 20-xapi / 40-resume / 50-loader / 90-boot) come from
    methodica-math-ratio-01 (35648a6). That unit owns its screens in 70-screens.js; this one runs on

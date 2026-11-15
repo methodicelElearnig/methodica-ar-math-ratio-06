@@ -1,4 +1,4 @@
-/* ═══════════════════ shared jsdom harness — methodica-math-ratio-06 ═══════════════════
+/* ═══════════════════ shared jsdom harness — methodica-ar-math-ratio-06 ═══════════════════
    NOT DEPLOYED. Dev tooling only. Required by verify-report.js, statement-flow.js and
    retry-gate.js.
 
@@ -20,7 +20,7 @@ const path = require('path');
 const { JSDOM } = require('jsdom');
 
 const BASE = process.env.LOMDA_BASE || path.join(__dirname, '..');
-const UNIT = 'methodica-math-ratio-06';
+const UNIT = 'methodica-ar-math-ratio-06';
 const PARTS = ['01', '02'];
 const PART_DIR = c => UNIT + '-' + c;
 const readMeta = c => JSON.parse(fs.readFileSync(path.join(BASE, 'metadata', PART_DIR(c) + '.json'), 'utf8').replace(/^﻿/, ''));

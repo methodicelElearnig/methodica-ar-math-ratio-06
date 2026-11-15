@@ -1,4 +1,4 @@
-/* ═══════════════════ Retry gate + "paint only submitted state" — methodica-math-ratio-06 ═══════════════════
+/* ═══════════════════ Retry gate + "paint only submitted state" — methodica-ar-math-ratio-06 ═══════════════════
    NOT DEPLOYED. Dev tooling only. ADDING-REPORTING-AND-RESUME.md §8.8 rules 9–10 (QA D-14, D-15);
    the idea of methodica-science-mass-measure-03/_test/retry-gate.js.
 

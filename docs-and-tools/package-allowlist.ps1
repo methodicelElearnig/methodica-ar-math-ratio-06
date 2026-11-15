@@ -21,7 +21,7 @@
     This file never ships: docs-and-tools/ is excluded wholesale, and *.ps1 twice over.
 
 .NOTES
-    Copied from methodica-math-ratio-01 (35648a6). methodica-math-ratio-06 has no
+    Copied from methodica-math-ratio-01 (35648a6). methodica-ar-math-ratio-06 has no
     unit-css/ or unit-assets/ (each component ships its own styles.css and assets/),
     so those two rules simply match nothing here. spec/, docs/, tools/ and media/
     (source material) match no rule and never ship.

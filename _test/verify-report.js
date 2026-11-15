@@ -1,4 +1,4 @@
-/* ═══════════════════ structural verification — methodica-math-ratio-06 ═══════════════════
+/* ═══════════════════ structural verification — methodica-ar-math-ratio-06 ═══════════════════
    NOT DEPLOYED. Dev tooling only.
 
    Asserts the CONTRACTS of the reporting / issue-reporting / resume integration — the silent
@@ -95,7 +95,7 @@ async function main() {
     eq('pkg', 'the package root holds only component folders and shared folders — no root index.html',
       fs.readdirSync(BASE).filter(n => fs.statSync(path.join(BASE, n)).isFile() && n !== 'DEPLOY.md'), []);
   } else {
-    ok('root', 'root index.html (local use) redirects to component 01 index.html carrying location.search', /location\.replace\('\.\/methodica-math-ratio-06-01\/index\.html' \+ window\.location\.search\)/.test(rd('index.html')));
+    ok('root', 'root index.html (local use) redirects to component 01 index.html carrying location.search', /location\.replace\('\.\/methodica-ar-math-ratio-06-01\/index\.html' \+ window\.location\.search\)/.test(rd('index.html')));
   }
   /* The MOE CDN answers a folder URL with 200 + 0 bytes (seen live 28.09.26): every navigation
      target must name its file. The local static server resolves folders, which hid this. */
@@ -175,8 +175,8 @@ async function main() {
   ok('nav', 'hops (location.replace) only in goToNextPart/goToPrevPart', (eng.match(/location\.replace\(/g) || []).length === 2);
   ok('report', 'report-modal.js has no leftover of another unit', !/percent-08/.test(rd('unit-js/report-modal.js')));
   ok('report', 'report-modal.js binds the flag by delegation', /document\.addEventListener\('click', function \(e\) \{\s*if \(e\.target && e\.target\.closest && e\.target\.closest\('\.flag-btn'\)\)/.test(rd('unit-js/report-modal.js')));
-  eq('keys', 'UI_CHARACTER_KEY is namespaced to this unit', (rd('unit-js/40-resume.js').match(/var UI_CHARACTER_KEY = '([^']+)'/) || [])[1], 'methodica_math_ratio_06_selectedCharacter');
-  eq('keys', 'NAV_EDGE_KEY carries this unit', (rd('unit-js/40-resume.js').match(/var NAV_EDGE_KEY = '([^']+)'/) || [])[1], 'lomda_nav_edges::methodica-math-ratio-06');
+  eq('keys', 'UI_CHARACTER_KEY is namespaced to this unit', (rd('unit-js/40-resume.js').match(/var UI_CHARACTER_KEY = '([^']+)'/) || [])[1], 'methodica_ar_math_ratio_06_selectedCharacter');
+  eq('keys', 'NAV_EDGE_KEY carries this unit', (rd('unit-js/40-resume.js').match(/var NAV_EDGE_KEY = '([^']+)'/) || [])[1], 'lomda_nav_edges::methodica-ar-math-ratio-06');
   ok('keys', 'RESULT_KEYS = the two verdict keys partExit writes', /var RESULT_KEYS\s+= \['ratio06_c01_result', 'ratio06_c02_result'\];/.test(rd('unit-js/40-resume.js')));
   ok('keys', 'no donor constants left (keys, slugs)', !allCode.map(rd).concat([fs.readFileSync(path.join(__dirname, 'xapi-720-k.js'), 'utf8')]).some(s => /lomda_nav_edges::methodica-math-ratio-01|ratio01_c|methodica_math_ratio_01|'methodica-math-ratio-01/.test(s)));
 
@@ -270,14 +270,14 @@ async function main() {
     b.exec('goTo(4);' + enterJs(4, KEY[4]) + clickCheck(4));
     const doc = b.state();
     eq('shape', 'document keys (v6)', Object.keys(doc).sort(), ['component', 'done', 'doneItems', 'hints', 'payload', 'picks', 'results', 'ui', 'v']);
-    eq('shape', 'v = 6, component = this part', [doc.v, doc.component], [6, 'methodica-math-ratio-06-02']);
+    eq('shape', 'v = 6, component = this part', [doc.v, doc.component], [6, 'methodica-ar-math-ratio-06-02']);
     eq('shape', 'payload keys', Object.keys(doc.payload).sort(), ['currentScreen', 'q', 'qResults']);
     eq('shape', 'payload holds only this part\'s questions', Object.keys(doc.payload.q).map(Number).sort((x, y) => x - y), [4, 5, 6, 7, 8, 9, 10, 11, 12, 13]);
     eq('shape', 'the answer was saved synchronously at the commit', doc.payload.q[4].done, true);
     /* another part's document is discarded */
-    b.exec('_unitState = null; window.__setState(Object.assign({}, ' + JSON.stringify(doc) + ', { component: "methodica-math-ratio-06-01" }));');
+    b.exec('_unitState = null; window.__setState(Object.assign({}, ' + JSON.stringify(doc) + ', { component: "methodica-ar-math-ratio-06-01" }));');
     const d2 = b.val('JSON.stringify(readUnitState())');
-    ok('shape', 'a document naming another component is discarded', JSON.parse(d2).payload === null && b.warns.some(w => /belongs to "methodica-math-ratio-06-01"/.test(w)));
+    ok('shape', 'a document naming another component is discarded', JSON.parse(d2).payload === null && b.warns.some(w => /belongs to "methodica-ar-math-ratio-06-01"/.test(w)));
   }
 
   /* ══════════ 6. Issue reporting ══════════ */
@@ -305,7 +305,7 @@ async function main() {
       ok(t, 'screen ' + n + ': exactly one POST to the shared Google Form', b.w.__fetches.length === 1 && /^https:\/\/docs\.google\.com\/forms\/d\/e\/[\w-]+\/formResponse$/.test(f.url) && f.init.mode === 'no-cors' && f.init.body instanceof b.w.URLSearchParams);
       if (!f) continue;
       const body = f.init.body;
-      eq(t, 'screen ' + n + ': unit slug', body.get('entry.1933069481'), 'methodica-math-ratio-06');
+      eq(t, 'screen ' + n + ': unit slug', body.get('entry.1933069481'), 'methodica-ar-math-ratio-06');
       eq(t, 'screen ' + n + ': component slug', body.get('entry.2070680092'), PART_DIR(c));
       eq(t, 'screen ' + n + ': item', body.get('entry.1555704258'), map[n] ? PART_DIR(c) + '-' + map[n][0] : '');
       eq(t, 'screen ' + n + ': page', body.get('entry.1671046914'), map[n] ? String(map[n][1]) : String(n));

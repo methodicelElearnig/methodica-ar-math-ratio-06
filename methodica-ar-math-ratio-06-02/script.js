@@ -1,6 +1,6 @@
 'use strict';
 /* ═══════════════════════════════════════════════════════════════════
-   methodica-math-ratio-06-02 — component 02 of 2 · יעד 1.6 (יחס)
+   methodica-ar-math-ratio-06-02 — component 02 of 2 · יעד 1.6 (יחס)
 
    CONFIGURATION ONLY. Every behaviour is shared in ../unit-js/.
    The split comes from the deck's own separator slides (2 and 6), which
@@ -8,14 +8,14 @@
    ═══════════════════════════════════════════════════════════════════ */
 /* next/prev name index.html explicitly: the CDN does not resolve a folder URL (200, 0 bytes).
    Used only by DEV_NAV walkthroughs — in production the platform routes. */
-window.PART_CONFIG = { start: 3, end: 13, next: null, prev: "../methodica-math-ratio-06-01/index.html" };
+window.PART_CONFIG = { start: 3, end: 13, next: null, prev: "../methodica-ar-math-ratio-06-01/index.html" };
 
 /* ═══════════════════ xAPI (720) — this component's configuration ═══════════════════
    Data only; the shared layer in ../unit-js/ reads it at CALL time. Ids must match
-   ../metadata/methodica-math-ratio-06-02.json byte-for-byte (the loader shouts on a mismatch). */
-var XAPI_COMP_SLUG     = 'methodica-math-ratio-06-02';
+   ../metadata/methodica-ar-math-ratio-06-02.json byte-for-byte (the loader shouts on a mismatch). */
+var XAPI_COMP_SLUG     = 'methodica-ar-math-ratio-06-02';
 var XAPI_COMP_ID       = XAPI_ID_PREFIX + XAPI_COMP_SLUG + '/';
-var XAPI_METADATA_FILE = '../metadata/methodica-math-ratio-06-02.json';
+var XAPI_METADATA_FILE = '../metadata/methodica-ar-math-ratio-06-02.json';
 
 /* Screen (this component's own GLOBAL data-screen numbers, 3-13) -> [item suffix, page in item].
    Screen 3 is the transition ("10 שאלות … צריך לענות נכון על 8 שאלות לפחות") — no catalogue item.

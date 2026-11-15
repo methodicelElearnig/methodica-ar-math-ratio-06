@@ -1,4 +1,4 @@
-/* ═══════════════════ behavioural statement-flow oracle — methodica-math-ratio-06 ═══════════════════
+/* ═══════════════════ behavioural statement-flow oracle — methodica-ar-math-ratio-06 ═══════════════════
    NOT DEPLOYED. Dev tooling only.
 
    Which statements actually leave the lomda when a learner does something, in what order, carrying
@@ -17,7 +17,7 @@ const R = H.makeReporter('statement-flow');
 const { ok, eq } = R;
 
 const META = { '01': readMeta('01'), '02': readMeta('02') };
-const itemId = (c, s) => META[c].id + 'methodica-math-ratio-06-' + c + '-' + s + '/';
+const itemId = (c, s) => META[c].id + 'methodica-ar-math-ratio-06-' + c + '-' + s + '/';
 const qId = (c, s) => itemId(c, s) + 'q1';
 const since = (b, n) => b.stmts().slice(n);
 const tail = (b, n) => b.stmts().slice(-n);
@@ -75,12 +75,12 @@ async function main() {
     eq('c01', 'item result is explicit', end[0].result, { success: false, score: { scaled: 0 } });
     eq('c01', 'hook component: success true, scaled = its one question', end[1].result, { success: true, score: { scaled: 0 } });
     ok('c01', 'the button is disabled', b.val('document.querySelector("#s2 .btn-continue").disabled') === true);
-    eq('c01', 'no navigation in production', b.val('location.pathname'), '/methodica-math-ratio-06/methodica-math-ratio-06-01/index.html');
+    eq('c01', 'no navigation in production', b.val('location.pathname'), '/methodica-ar-math-ratio-06/methodica-ar-math-ratio-06-01/index.html');
     eq('c01', 'verdict recorded in the document', b.state().results, { ratio06_c01_result: 'pass' });
     n = b.stmts().length;
     b.exec('document.querySelector("#s2 .btn-continue").disabled = false; document.querySelector("#s2 .btn-continue").click();');
     eq('c01', 'a second last click sends nothing (ledger)', since(b, n).length, 0);
-    ok('c01', 'no statement ever names the unit as its object', !b.stmts().some(x => x.objectId === 'methodica-math-ratio-06' || (x.opts && x.opts.objectId === 'methodica-math-ratio-06')));
+    ok('c01', 'no statement ever names the unit as its object', !b.stmts().some(x => x.objectId === 'methodica-ar-math-ratio-06' || (x.opts && x.opts.objectId === 'methodica-ar-math-ratio-06')));
 
     /* reload on the finished component: nothing re-sent, button stays dead (D-8) */
     const r = await b.reload();
@@ -205,12 +205,12 @@ async function main() {
     eq(tag, 'ten item completed, one per item', new Set(s.filter(x => x.verb === 'completed' && x.objectId).map(x => x.objectId)).size, 10);
     eq(tag, 'item completed is the last statement before the component', s.slice(-2).map(x => x.verb + (x.objectId ? ':item' : ':comp')), ['completed:item', 'completed:comp']);
     ok(tag, 'q13 button disabled', b.val('document.getElementById("q13-check").disabled') === true);
-    eq(tag, 'still on q13, no navigation', [b.val('currentScreen'), b.val('location.pathname')], [13, '/methodica-math-ratio-06/methodica-math-ratio-06-02/index.html']);
+    eq(tag, 'still on q13, no navigation', [b.val('currentScreen'), b.val('location.pathname')], [13, '/methodica-ar-math-ratio-06/methodica-ar-math-ratio-06-02/index.html']);
     eq(tag, 'verdict in the document', b.state().results.ratio06_c02_result, good >= 8 ? 'pass' : 'fail');
     const n = b.stmts().length;
     b.exec('document.getElementById("q13-check").disabled = false;' + clickCheck(13));
     eq(tag, 'a second last click sends nothing', since(b, n).length, 0);
-    ok(tag, 'no unit-level object anywhere', !s.some(x => (x.opts && x.opts.objectId) === 'methodica-math-ratio-06'));
+    ok(tag, 'no unit-level object anywhere', !s.some(x => (x.opts && x.opts.objectId) === 'methodica-ar-math-ratio-06'));
     eq(tag, 'no console.error', b.errors, []);
   }
 

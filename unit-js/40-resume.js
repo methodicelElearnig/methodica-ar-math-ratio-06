@@ -1,7 +1,7 @@
 'use strict';
 /* ═══════════════════════════════════════════════════════════════════
    RESUME — save / restore execution state to KATA (xAPI State API)
-   Shared by both components of methodica-math-ratio-06 (copied from methodica-math-ratio-01
+   Shared by both components of methodica-ar-math-ratio-06 (copied from methodica-math-ratio-01
    35648a6, retargeted). Definition-only; ../unit-js/90-boot.js calls
    initResumeResetHatch() and initResumeLeaveHandlers(), and ../unit-js/50-loader.js drives the
    restore itself. Full design: Documentation/reporting-and-resume/ADDING-REPORTING-AND-RESUME.md §8.
@@ -137,7 +137,7 @@ function emptyUnitState() {
 /* ratio-06: this unit has ONE fixed companion character and no choice screen, so the character
    slot stays null and nothing reads it. The key is still namespaced per unit (QA D-6): an
    origin-wide key would let another unit's value be adopted into this unit's documents. */
-var UI_CHARACTER_KEY = 'methodica_math_ratio_06_selectedCharacter';
+var UI_CHARACTER_KEY = 'methodica_ar_math_ratio_06_selectedCharacter';
 /* Each component's own verdict, written by partExit() (70-platform.js) through setUnitResult. */
 var RESULT_KEYS      = ['ratio06_c01_result', 'ratio06_c02_result'];
 
@@ -452,7 +452,7 @@ function sendCompletedOnce(ledger, key, objectType, result, opts) {
 
    ⚠️ NAV_EDGE_KEY must carry the unit slug. Two units sharing this key share a ledger and
    silently suppress each other's reports. */
-var NAV_EDGE_KEY = 'lomda_nav_edges::methodica-math-ratio-06';
+var NAV_EDGE_KEY = 'lomda_nav_edges::methodica-ar-math-ratio-06';
 
 function _readEdges() {
   try {

@@ -1,5 +1,5 @@
 /* =====================================================================
-   methodica-math-ratio-06 — unit logic (יעד 1.6, יחס).
+   methodica-ar-math-ratio-06 — unit logic (יעד 1.6, יחס).
    Runs on the shared 720-core (engine.js / quiz-engine.js / motion.js).
 
    14 screens over two components, both numbered globally:
@@ -15,7 +15,7 @@
 const TOTAL_SCREENS = 14;
 
 /* The unit's pass gate: 8 of the 10 practice questions (screens 4-13). The METADATA is the source
-   of truth (decision 28.09.26) — metadata/methodica-math-ratio-06-02.json, item 001
+   of truth (decision 28.09.26) — metadata/methodica-ar-math-ratio-06-02.json, item 001
    informationToBot: "נדרש לענות נכון על 8 מתוך 10 לפחות", as the deck (slide 7) also says. The
    transition screen (s3) was changed to 7 in 5eaf878 (24.09) and is back to 8. The metadata, the
    screen-3 text, this gate and the reported success (partResult() in 70-platform.js) must agree. */

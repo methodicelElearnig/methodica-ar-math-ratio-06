@@ -629,11 +629,27 @@ html, body {
 /* image-based answer options */
 .opt-img { max-height: 56px; max-width: 260px; object-fit: contain; }
 
-/* ratio-rows value-input layout */
-.ratio-rows { display: flex; flex-direction: column; gap: 22px; max-width: 620px; }
-.ratio-row { display: flex; flex-direction: column; gap: 8px; font-size: 20px; }
+/* ratio-rows value-input layout.
+   24.09 — answer inputs align RIGHT, unit-wide. This block used to stack the
+   label over the boxes (`flex-direction: column`) and cap the group at 620px,
+   which pushed the boxes to the far left of the column while their label sat
+   at the right edge. Same defect and same fix as ratio-04 carried; both units
+   vendored this CSS from the same source, so a third unit starting from it
+   will need it too. */
+.ratio-rows { display: flex; flex-direction: column; gap: 22px; align-items: flex-start; width: 100%; }
+.ratio-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  font-size: 20px;
+  justify-content: flex-start;   /* RTL: flex-start is the RIGHT edge */
+  width: 100%;
+}
 .ratio-row-label { font-weight: 600; }
 .ratio-row-cells { display: flex; align-items: center; gap: 10px; }
+/* a single `valueBox` field answers to the same rule */
+.value-box-row { justify-content: flex-start; width: 100%; }
 .vi-colon { font-size: 26px; font-weight: 700; }
 
 /* in-question note popup (e.g. unit-conversion reminder) */
@@ -3036,7 +3052,7 @@ so the group came out ragged. Give them all the tallest option's
 .applet-embed:has(iframe[src*="followers-widget"]) { height: 530px; max-width: 470px; }
 
 /* ══════════════════════════════════════════════════════════════════════
-   methodica-math-ratio-06 — screen styles. Everything above is the
+   methodica-ar-math-ratio-06 — screen styles. Everything above is the
    vendored approved base (chrome, quiz engine, transition, popups).
    ══════════════════════════════════════════════════════════════════════ */
 
@@ -3058,9 +3074,8 @@ so the group came out ragged. Give them all the tallest option's
 /* ── S2 · deck slide 5: the hook closer. Copy across the top, then the
    character at the far LEFT with its bubble ABOVE it. ── */
 .hookclose { position: absolute; inset: 40px 40px 90px; }
-/* 24.09, producer: bigger copy on the hook closer. */
-.hookclose-body { font-size: 24px; line-height: 1.6; color: var(--text); text-align: center;
-  margin: 130px auto 0; max-width: 1033px; }
+.hookclose-body { font-size: 20px; line-height: 1.6; color: var(--text); text-align: center;
+  margin: 140px auto 0; max-width: 1033px; }
 .hookclose-char { position: absolute; left: 0; bottom: 0; display: flex; flex-direction: column;
   align-items: center; gap: 10px; opacity: 0; transition: opacity .5s ease, transform .5s ease;
   transform: translateY(12px); }
@@ -3085,7 +3100,8 @@ so the group came out ragged. Give them all the tallest option's
 .q-photo { width: auto; max-width: 556px; max-height: 330px; border-radius: 14px; display: block; object-fit: contain; }
 .q-photo--wide { max-width: 531px; }
 /* the deck asks for the answer format on screen 12 */
-.q-format { font-size: 19px; color: var(--gray-100, #6b6b73); margin: 8px 0 0; }
+/* 24.09, producer: no grey — the format hint reads as body copy. */
+.q-format { font-size: 19px; margin: 8px 0 0; }
 
 /* ── S8 · the strip model (deck slide 12). Both bars are RIGHT-aligned and
    the label sits to the RIGHT of each bar, so the label is the FIRST

@@ -1,4 +1,4 @@
-/* methodica-math-ratio-06 — copied from methodica-math-ratio-01 _test/ (35648a6); slug and key lists retargeted.
+/* methodica-ar-math-ratio-06 — copied from methodica-math-ratio-01 _test/ (35648a6); slug and key lists retargeted.
    תחליף מקומי ל-xapi-720-k.js שב-CDN, לאימות resume וניווט בין סינים בלי LRS.
    **לא נפרס.** נטען רק דרך ?xapiLib=../_test/xapi-720-k.js, ש-50-loader.js מכבד
    על localhost בלבד.
@@ -226,15 +226,15 @@
         .forEach(function (k) { sessionStorage.removeItem(k); });
       sessionStorage.removeItem(LOG_KEY);
       sessionStorage.removeItem(FAIL_KEY);
-      sessionStorage.removeItem('lomda_nav_edges::methodica-math-ratio-06');
+      sessionStorage.removeItem('lomda_nav_edges::methodica-ar-math-ratio-06');
     } catch (e) {}
     /* v4: הדמות ותוצאות המועד עברו למסמך ה-state, ו-localStorage הוא קאש
        בלבד. מנקים גם אותו — אחרת __reset() משאיר את הדמות ואת שערי המועד
        מהריצה הקודמת בחיים בחלון שלפני קריאת המסמך, וזה בדיוק סוג המצב
        שהעוזר הזה קיים כדי לחסל. אותו ניקוי כמו ב-initResumeResetHatch. */
     try {
-      localStorage.removeItem('methodica_math_ratio_06_selectedCharacter');
-      /* The same two as RESULT_KEYS in unit-js/40-resume.js (methodica-math-ratio-06). */
+      localStorage.removeItem('methodica_ar_math_ratio_06_selectedCharacter');
+      /* The same two as RESULT_KEYS in unit-js/40-resume.js (methodica-ar-math-ratio-06). */
       ['ratio06_c01_result', 'ratio06_c02_result']
         .forEach(function (k) { localStorage.removeItem(k); });
     } catch (e) {}

@@ -34,7 +34,7 @@ fails its target group.
 ## In a browser
 
 ```
-http://localhost:<port>/methodica-math-ratio-06/methodica-math-ratio-06-02/index.html?xapiLib=../_test/xapi-720-k.js
+http://localhost:<port>/methodica-ar-math-ratio-06/methodica-ar-math-ratio-06-02/index.html?xapiLib=../_test/xapi-720-k.js
 ```
 
 Add `&resetState` for a clean document. Serve from a **subpath** (the folder above the repo), so a
