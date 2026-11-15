@@ -1,6 +1,32 @@
-# Unit: methodica-math-ratio-06
+# Unit: methodica-ar-math-ratio-06 (Arabic twin of methodica-math-ratio-06)
 
-Interactive learning unit (לומדה) for Methodica's 720 project. Hebrew, RTL, static
+## Arabic twin — read first (2026-11-15)
+
+- **Identity:** slug `methodica-ar-math-ratio-06`, IRI base `…/metodica/720/ar/math/ratio/06/`
+  (ids and content both, as ar-ratio-01/04), component folders `methodica-ar-math-ratio-06-0N`,
+  keys `methodica_ar_math_ratio_06_selectedCharacter` / `lomda_nav_edges::methodica-ar-math-ratio-06`.
+  The `ratio06_c0N_result` keys and the CDN library path (`720active/common/`) are shared with Hebrew.
+- **Functionality = the Hebrew twin.** Level with `methodica-math-ratio-06` `2a85a89` (14.11.26:
+  resume hardening + leave save, `xapi-720-l.js`). `unit-js/*` and `_test/{harness,xapi-720-l}.js` are
+  byte-identical to Hebrew apart from the identity, the two keys and the learner-visible Arabic strings
+  in `70-platform.js` / `questions.js` / `quiz-engine.js`. Port every Hebrew change as
+  "Same change as the Hebrew twin" (BOOT-AND-RESUME-HARDENING §7.5, §2.9).
+- **Learner-visible text is the translator's Arabic** (`methodica-math-ratio-06-ar.xlf`). Comments and
+  docs stay Hebrew/English and are not translated. No Hebrew may reach the page (MOE runbook: critical).
+- **Metadata:** `metadata/*.json` are placeholders (the Hebrew twin's texts, re-pointed ids) until
+  Vadim supplies the real Arabic metadata. Nothing sent to Kata. In Kata the Arabic components live
+  **inside the Hebrew unit** (parent-unit mode — port it from ar-ratio-04 `3c028d7` before sending).
+  **Do not publish until MOE approves the Arabic version in writing** (`docs-and-tools/SEND-METADATA.md`).
+- **Push, PR, merge, package, CDN upload, Kata send: each only with Vadim's explicit approval.**
+- **Tests** (from the repo root): jsdom suites with `NODE_PATH=C:\lomda-test\node_modules`;
+  `_test/layout.js` with `NODE_PATH=%LOCALAPPDATA%\Temp\lomda-test\node_modules` and a static server on
+  the repo root (`..\.claude\launch.json`, `lomda-ar-static`, port 8796). The label assertions read the
+  Arabic screens.
+- Everything below is the Hebrew unit's record. It still holds: same screens, same rules.
+
+---
+
+Interactive learning unit (לומדה) for Methodica's 720 project. Arabic (translated from Hebrew), RTL, static
 HTML/CSS/JS. Built from the extracted spec in `spec/` — read `spec/manifest.md` first;
 each screen's full instructions live in `spec/screens/slide-NNN.md` (production notes
 from the תסריט, slide text, and reference images in `spec/assets/`).
@@ -97,4 +123,4 @@ Unit record: `docs-and-tools/REPORTING-RESUME.md`. Family guide:
 - Every redirect / link names its file (`…/index.html`): the MOE CDN serves a folder URL as 200 with
   0 bytes.
 - Run the harness before every commit: `NODE_PATH=<jsdom outside OneDrive>/node_modules node
-  _test/{verify-report,statement-flow,retry-gate}.js`.
+  _test/{verify-report,statement-flow,retry-gate,write-guard}.js`.

@@ -25,10 +25,8 @@ State on 2026-11-15 (Arabic twin, after the identity rename and the 03.11 port):
 statement-flow 92, retry-gate 175, write-guard 44 (jsdom) + layout 66 = 794 checks, all green. The label
 assertions read the Arabic screens ("هل نتابع؟", "الإجابة الصحيحة", the screen-3 gate sentence, the
 issue-report option text). `write-guard.js` and the `xapi-720-l.js` stub came with the Hebrew twin's
-dc60a45; write-guard fails 26 of 44 against the pre-port tree. jsdom: `C:\lomda-test
-ode_modules`;
-puppeteer-core: `%LOCALAPPDATA%\Temp\lomda-test
-ode_modules`.
+dc60a45; write-guard fails 26 of 44 against the pre-port tree. jsdom: `C:\lomda-test\node_modules`;
+puppeteer-core: `%LOCALAPPDATA%\Temp\lomda-test\node_modules`.
 
 State on 2026-10-07: 417 + 92 + 175 (jsdom) + 66 (layout) = 750 checks, all green; 30 of the layout
 checks fail on the pre-fix CSS.
