@@ -6,9 +6,12 @@
 >   `e588899`, whose message wrongly calls it placeholders); `informationToBot` stays Hebrew.
 > - ⚠️ **DO NOT PUBLISH until MOE approves the Arabic version in writing** (rule of 2026-11-02,
 >   `Documentation/KATA/KATA-API.md`). Record the approval here (date, who) before any `-Publish`.
-> - In Kata the Arabic components belong **inside the Hebrew unit `methodica-math-ratio-06`**
->   (parent-unit mode). This copy of `send-metadata.ps1` does not have that mode yet. Port it from
->   ar-ratio-04 `3c028d7` before the first send.
+> - In Kata the Arabic components belong **inside the Hebrew unit `methodica-math-ratio-06`**.
+>   **Parent-unit mode (default, 2026-11-15, from ar-ratio-01 `52d881c`):** `-ParentUnitKey
+>   'methodica-math-ratio-06'`; the Hebrew unit is read-only (one GET, never POST/PATCH) and
+>   `*_unit.json` is not sent. `-ParentUnitKey ''` restores the own-unit upsert. Dry run 2026-11-15:
+>   parent GET, 2 components POSTed under `content-units/methodica-math-ratio-06`, 11 items,
+>   `created=13 updated=0 failed=0`. Not sent.
 
 # Sending metadata to the Kata catalog
 
