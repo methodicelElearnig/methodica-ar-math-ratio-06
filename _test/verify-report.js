@@ -202,7 +202,7 @@ async function main() {
         const r = await boot(c, { lib: true });
         r.finishBoot();
         r.exec('applyExecutionState(' + payload + ', ' + n + ');');
-        ok(t, 'screen ' + n + ': restored with "שנמשיך?"', r.val('document.getElementById("q' + n + '-check").textContent') === 'שנמשיך?');
+        ok(t, 'screen ' + n + ': restored with "هل نتابع؟"', r.val('document.getElementById("q' + n + '-check").textContent') === 'هل نتابع؟');
         ok(t, 'screen ' + n + ': feedback shown (' + (verdict ? 'correct' : 'wrong') + ')', r.val('document.getElementById("q' + n + '-feedbox").classList.contains("' + (verdict ? 'is-correct' : 'is-wrong') + '")'));
         if (type === 'single') {
           ok(t, 'screen ' + n + ': the right option carries .correct', r.val('!!document.querySelector("#q' + n + ' .scq-opt.correct")'));
@@ -250,16 +250,17 @@ async function main() {
     const r = await boot('02', { lib: true });
     r.finishBoot();
     r.exec('applyExecutionState(' + payload + ', 5);');
-    eq('toggle', 'restored: still the learner own answer, toggle labelled for the other', [r.val('quizSlots(5)[0].value'), r.val('document.querySelector("#q5-feedbox .fb-answer-toggle").textContent')], ['2', 'התשובה הנכונה']);
+    eq('toggle', 'restored: still the learner own answer, toggle labelled for the other', [r.val('quizSlots(5)[0].value'), r.val('document.querySelector("#q5-feedbox .fb-answer-toggle").textContent')], ['2', 'الإجابة الصحيحة']);
   }
 
   /* the gate agrees in all four places: metadata (source of truth), screen 3, PASS_MARK, the result */
   {
     const info = readMeta('02').subContent[0].informationToBot;
-    const m = /(\d+) מתוך 10/.exec(info);
+    /* Arabic twin: the metadata placeholder is still Hebrew; accept the Arabic wording too (من 10) */
+    const m = /(\d+) (?:מתוך|من) 10/.exec(info);
     ok('gate', 'metadata states the gate', !!m, info.slice(0, 60));
     const gateN = m ? Number(m[1]) : -1;
-    ok('gate', 'screen 3 promises the same number', rd(PART_DIR('02') + '/index.html').includes('צריך לענות נכון על ' + gateN + ' שאלות לפחות'));
+    ok('gate', 'screen 3 promises the same number', rd(PART_DIR('02') + '/index.html').includes('يجب الإجابة بشكل صحيح على ' + gateN + ' أسئلة على الأقل'));
     const b = await boot('02', { meta: false });
     eq('gate', 'PASS_MARK equals it', b.val('PASS_MARK'), gateN);
   }
@@ -301,7 +302,7 @@ async function main() {
     const map = JSON.parse(b.val('JSON.stringify(SCREEN_TO_SUBCONTENT)'));
     for (const n of Object.keys(map).map(Number)) {
       b.w.__fetches.length = 0;
-      b.exec('goTo(' + n + '); openReportModal(); var s = document.getElementById("report-type"); s.value = "technical"; document.getElementById("report-text").value = "בדיקת QA — לא לטפל"; submitReport();');
+      b.exec('goTo(' + n + '); openReportModal(); var s = document.getElementById("report-type"); s.value = "technical"; document.getElementById("report-text").value = "فحص QA — لا تعالجوا"; submitReport();');
       const f = b.w.__fetches[0];
       ok(t, 'screen ' + n + ': exactly one POST to the shared Google Form', b.w.__fetches.length === 1 && /^https:\/\/docs\.google\.com\/forms\/d\/e\/[\w-]+\/formResponse$/.test(f.url) && f.init.mode === 'no-cors' && f.init.body instanceof b.w.URLSearchParams);
       if (!f) continue;
@@ -310,8 +311,8 @@ async function main() {
       eq(t, 'screen ' + n + ': component slug', body.get('entry.2070680092'), PART_DIR(c));
       eq(t, 'screen ' + n + ': item', body.get('entry.1555704258'), map[n] ? PART_DIR(c) + '-' + map[n][0] : '');
       eq(t, 'screen ' + n + ': page', body.get('entry.1671046914'), map[n] ? String(map[n][1]) : String(n));
-      eq(t, 'screen ' + n + ': the Hebrew label, not the key', body.get('entry.1179822443'), 'תקלה טכנית או שמשהו לא עובד');
-      eq(t, 'screen ' + n + ': free text verbatim', body.get('entry.806447525'), 'בדיקת QA — לא לטפל');
+      eq(t, 'screen ' + n + ': the Arabic label, not the key', body.get('entry.1179822443'), 'عطل تقني أو أن شيئاً ما لا يعمل');
+      eq(t, 'screen ' + n + ': free text verbatim', body.get('entry.806447525'), 'فحص QA — لا تعالجوا');
       ok(t, 'screen ' + n + ': year', /^\d{4}$/.test(body.get('entry.301404029_year')));
       b.exec('forceCloseReportModal();');
     }

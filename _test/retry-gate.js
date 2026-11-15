@@ -70,7 +70,7 @@ async function main() {
     /* the correct answer finishes and clears lw */
     r.exec(enterJs(n, KEY[n]) + clickCheck(n));
     eq(t, 'correct second attempt: done, lw cleared', r.val('[quizState[' + n + '].done, quizState[' + n + '].lw]'), [true, null]);
-    ok(t, 'check became "שנמשיך?" and is enabled', r.val('document.getElementById("q' + n + '-check").textContent === "שנמשיך?" && !document.getElementById("q' + n + '-check").disabled'));
+    ok(t, 'check became "هل نتابع؟" and is enabled', r.val('document.getElementById("q' + n + '-check").textContent === "هل نتابع؟" && !document.getElementById("q' + n + '-check").disabled'));
     eq(t, 'no console.error', b.errors.concat(r.errors), []);
   }
 

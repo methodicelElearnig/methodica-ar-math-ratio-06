@@ -90,7 +90,7 @@ async function main() {
     eq('c01', 'reload: only the two initialized go out', since(r, n0).map(x => x.verb), ['initialized', 'initialized']);
     ok('c01', 'reload: the finished button is still disabled', r.val('document.querySelector("#s2 .btn-continue").disabled') === true);
     r.exec('goTo(1);');
-    ok('c01', 'reload: the hook question is repainted as answered', r.val('document.querySelector("#q1 .scq-opt[data-id=\\"a\\"]").classList.contains("wrong") && document.querySelector("#q1 .scq-opt[data-id=\\"c\\"]").classList.contains("correct") && document.getElementById("q1-check").textContent === "שנמשיך?"') === true);
+    ok('c01', 'reload: the hook question is repainted as answered', r.val('document.querySelector("#q1 .scq-opt[data-id=\\"a\\"]").classList.contains("wrong") && document.querySelector("#q1 .scq-opt[data-id=\\"c\\"]").classList.contains("correct") && document.getElementById("q1-check").textContent === "هل نتابع؟"') === true);
     r.exec('goTo(2);');
     ok('c01', 'reload: back to s2, still disabled', r.val('document.querySelector("#s2 .btn-continue").disabled') === true);
     eq('c01', 'no console.error', b.errors.concat(r.errors), []);
@@ -224,7 +224,7 @@ async function main() {
     const r = await b.reload();
     r.finishBoot();
     eq('d8', 'answered-not-clicked: lands on q13', r.val('currentScreen'), 13);
-    ok('d8', 'answered-not-clicked: "שנמשיך?" is live', r.val('document.getElementById("q13-check").disabled === false && document.getElementById("q13-check").textContent === "שנמשיך?"'));
+    ok('d8', 'answered-not-clicked: "هل نتابع؟" is live', r.val('document.getElementById("q13-check").disabled === false && document.getElementById("q13-check").textContent === "هل نتابع؟"'));
     const n = r.stmts().length;
     r.exec(clickCheck(13));
     ok('d8', '… and the click still sends the component completed', since(r, n).some(x => x.verb === 'completed' && !x.objectId));
