@@ -89,7 +89,7 @@ async function main() {
   const codeFiles = SHARED_ORDER.filter(s => s !== 'script.js').map(s => s.replace('../', ''))
     .concat(PARTS.map(c => PART_DIR(c) + '/script.js'), PARTS.map(c => PART_DIR(c) + '/index.html'),
       process.env.LOMDA_BASE ? [] : ['index.html']);
-  ok('case', 'no capitalised unit slug anywhere in code', !codeFiles.some(f => /Methodica-math-ratio-06/i.test(rd(f)) && /[A-Z]ethodica-math-ratio-06|methodica-math-[A-Z]/.test(rd(f))));
+  ok('case', 'no capitalised unit slug anywhere in code', !codeFiles.some(f => /Methodica-ar-math-ratio-06/i.test(rd(f)) && /[A-Z]ethodica-ar-math-ratio-06|methodica-ar-math-[A-Z]/.test(rd(f))));
   /* Rule 28.09.26: the platforms launch the COMPONENT links only, so a package carries nothing at
      its root. The repo keeps a root index.html for local use; it must never ship. */
   if (process.env.LOMDA_BASE) {
@@ -256,7 +256,7 @@ async function main() {
   /* the gate agrees in all four places: metadata (source of truth), screen 3, PASS_MARK, the result */
   {
     const info = readMeta('02').subContent[0].informationToBot;
-    /* Arabic twin: the metadata placeholder is still Hebrew; accept the Arabic wording too (من 10) */
+    /* Arabic twin: informationToBot stays Hebrew (as in ar-ratio-01/04/05); accept the Arabic wording too (من 10) */
     const m = /(\d+) (?:מתוך|من) 10/.exec(info);
     ok('gate', 'metadata states the gate', !!m, info.slice(0, 60));
     const gateN = m ? Number(m[1]) : -1;

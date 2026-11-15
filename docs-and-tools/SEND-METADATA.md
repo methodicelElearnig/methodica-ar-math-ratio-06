@@ -2,8 +2,8 @@
 > - `ContentBaseUrl` = `https://lomdot.education.gov.il/metodica/720/ar/math/ratio/06`, retrieve
 >   `IdBase` = `…/720/ar/math/ratio/06` (ids and content both under `720/ar/`, as ar-ratio-01 / ar-ratio-04),
 >   `$TitleLangKey = 'Arabic'`, unit key `methodica-ar-math-ratio-06`.
-> - ⚠️ **NOTHING SENT YET.** The files in `metadata/` are placeholders carried over from the Hebrew
->   twin (Hebrew texts, re-pointed ids); Vadim supplies the real Arabic metadata.
+> - ⚠️ **NOTHING SENT YET.** `metadata/` holds Vadim's Arabic metadata (dated 2026-11-11, committed with
+>   `e588899`, whose message wrongly calls it placeholders); `informationToBot` stays Hebrew.
 > - ⚠️ **DO NOT PUBLISH until MOE approves the Arabic version in writing** (rule of 2026-11-02,
 >   `Documentation/KATA/KATA-API.md`). Record the approval here (date, who) before any `-Publish`.
 > - In Kata the Arabic components belong **inside the Hebrew unit `methodica-math-ratio-06`**
